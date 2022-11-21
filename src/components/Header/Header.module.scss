@@ -1,0 +1,170 @@
+@import "../../scss/null.scss";
+
+ul {
+	list-style: none;
+	a {
+		text-decoration: none;
+	}
+}
+
+.header {
+	background-color: #f8f8f8;
+	font-size: 14px;
+	line-height: calc(17 / 14);
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav {
+}
+.list {
+	display: flex;
+	align-items: center;
+
+	color: #8291a3;
+}
+.item {
+	&:not(:last-of-type) {
+		margin-right: calc(57 / 14) + em;
+	}
+}
+.link {
+	transition: all 200ms ease-in-out 0s;
+	display: flex;
+	color: #8291a3;
+	align-items: center;
+	height: 100%;
+	padding-block: 11px;
+	position: relative;
+	&:visited {
+		color: inherit;
+	}
+	&.active {
+		color: #1e2123;
+		&::before {
+			opacity: 1;
+		}
+	}
+	i {
+		font-size: calc(10 / 14) + em;
+		margin-right: 5px;
+	}
+
+	&::before {
+		content: "";
+		width: 100%;
+		position: absolute;
+		height: 3px;
+		background-color: #ffd54f;
+		display: block;
+		bottom: 0;
+		left: 0;
+		opacity: 0;
+	}
+}
+
+.additional {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	gap: 40px;
+}
+.favs {
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+	color: #8291a3;
+	svg {
+		width: 1em;
+		margin-left: 10px;
+		path:last-child {
+			transition: 150ms ease-in-out;
+			stroke: #8291a3;
+			&:hover {
+				fill: grey;
+			}
+		}
+	}
+}
+.login {
+	color: #664ef9;
+	text-decoration: none;
+	font-weight: 500;
+	&:visited {
+	}
+}
+
+.main {
+	&__nav {
+		margin-right: auto;
+	}
+
+	&__list {
+		display: flex;
+		gap: 79px;
+		font-weight: 600;
+		a,
+		a:visited {
+			color: #1e2123;
+		}
+
+		a {
+			display: block;
+			padding-block: 22px;
+			position: relative;
+			transition: all 150ms ease-in 0s;
+			&:hover {
+				color: #242424;
+			}
+			&.active {
+				&:before {
+					content: "";
+					width: 100%;
+					position: absolute;
+					height: 3px;
+					background-color: #ffd54f;
+					z-index: 3;
+					display: block;
+					bottom: 0;
+					left: 0;
+					opacity: 1;
+				}
+			}
+		}
+
+		[class*="_icon-"] {
+			font-size: 1em;
+			margin-left: 1em;
+			color: #ffd54f;
+		}
+	}
+}
+
+.main__header {
+	background-color: white;
+	img {
+		margin-right: 83px;
+		max-width: 134px;
+	}
+}
+
+.main__container {
+	display: flex;
+	align-items: center;
+}
+
+.button {
+	font-weight: 700;
+	padding: 10px 26px;
+	background-image: linear-gradient(90deg, #9d94ff 0%, #6b50e9 94.5%);
+	border-radius: 19px;
+	color: white;
+	transition: all 200ms ease-in-out;
+	cursor: pointer;
+	&:hover {
+		background-color: rgba(0, 0, 0, 0.08);
+	}
+}

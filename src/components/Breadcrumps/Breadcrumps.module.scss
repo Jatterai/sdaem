@@ -1,0 +1,19 @@
+.container,
+.from,
+.to {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+	font-size: 14px;
+	line-height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.to {
+	color: #686868;
+}
+
+.from {
+	color: #664ef9;
+}
