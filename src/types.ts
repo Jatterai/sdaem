@@ -19,3 +19,11 @@ export type TSearch = {
 	className?: string,
 	placeholder?: string,
 }
+
+export type TCard = {
+	title: string,
+	id?: number,
+	img: string,
+	text: string,
+	date: string,
+}

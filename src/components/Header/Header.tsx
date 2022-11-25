@@ -54,7 +54,7 @@ const Header = () => {
 			</Container>
 			<div className={styles.main__header}>
 				<Container className={styles.main__container}>
-					<img src={logo} alt="" />
+					<NavLink to='/' className={styles.logo}><img src={logo} alt="" /></NavLink>
 					<nav className={styles.main__nav}>
 						<ul className={styles.main__list}>
 							<li>
