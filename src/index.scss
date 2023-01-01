@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: Inter, sans-serif;
 	font-size: 1rem;
@@ -10,4 +14,6 @@ main {
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
 	position: relative;
+	display: flex;
+	flex-direction: column;
 }

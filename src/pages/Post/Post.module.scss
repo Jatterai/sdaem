@@ -1,0 +1,73 @@
+.post {
+	position: relative;
+	flex: 1 0 auto;
+	background: url("../../assets/decorations/dots.svg") 13.5% 41% no-repeat;
+	@media (max-width: 1280px) {
+		background: none;
+	}
+}
+
+.post::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 280px;
+	background: linear-gradient(90deg, #94afff 0%, #4e64f9 94.5%);
+	opacity: 0.1;
+	@media (max-width: 650px) {
+		height: 350px;
+	}
+	@media (max-width: 450px) {
+		height: 500px;
+	}
+}
+
+.container {
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 65px;
+	z-index: 2;
+}
+
+.text {
+	font-size: 1rem;
+	line-height: 150%;
+	color: #1e2123;
+	@media (max-width: 600px) {
+		font-size: 1.2em;
+	}
+	.p:not(:last-of-type) {
+		margin-bottom: 1.5em;
+	}
+}
+
+.more {
+	background: linear-gradient(90deg, #94afff22 0%, #4e65f923 94.5%);
+
+	&__title {
+		font-weight: 700;
+		font-size: calc(25 / 16 * 1rem);
+		line-height: calc(30 / 25);
+		color: #1e2123;
+		margin: 0 0 calc(44 / 25 * 1em) 0;
+	}
+
+	&__container {
+		padding-top: 62px;
+		padding-bottom: 100px;
+	}
+
+	&__cards {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		column-gap: 30px;
+		@media (max-width: 850px) {
+			grid-template-columns: 1fr;
+			row-gap: 20px;
+		}
+	}
+}

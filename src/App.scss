@@ -16,3 +16,41 @@
 	-ms-flex-direction: column;
 	flex-direction: column;
 }
+
+a,
+a:visited {
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.loading {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+	width: fit-content;
+	font-weight: 300;
+	background: yellow;
+	min-width: 5em;
+	aspect-ratio: 1 / 1;
+	border-radius: 50%;
+	box-shadow: 0 8px 10px rgba(73, 37, 84, 0.128);
+	animation: loader 2s ease-in-out 0s infinite forwards;
+}
+
+@keyframes loader {
+	0% {
+		background-color: rgb(255, 196, 0);
+		rotate: 0;
+	}
+	50% {
+		background-color: rgb(255, 180, 0);
+		rotate: 180deg;
+	}
+	100% {
+		background-color: rgb(255, 196, 0);
+		rotate: 360deg;
+	}
+}

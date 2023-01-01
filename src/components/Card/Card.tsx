@@ -8,18 +8,21 @@ import { TCard } from '../../types';
 const Card = (props: TCard) => {
 	return (
 		<div className={styles.card}>
-			<img src={props.img} className={styles.img} alt="oicture of apartment" />
+			<Link to={`/news/${props.id}`} className={styles.picture_wrapper}>
+				<img src={props.img} className={styles.img} alt="oicture of apartment" />
+			</Link>
+
 			<div className={styles.card_body}>
-				<h6 className={styles.title}>{props.title}</h6>
+				<Link to={`/news/${props.id}`} className={styles.title}>{props.title}</Link>
 				<p className={styles.text}>{props.text}</p>
 			</div>
 			<div className={styles.card_footer}>
 				<div className={styles.date}>
 					{props.date}
 				</div>
-				<a href="" className={styles.link}>
+				<Link to={`/news/${props.id}`} className={styles.link}>
 					Читать
-				</a>
+				</Link>
 			</div>
 		</div>
 	)

@@ -1,18 +1,20 @@
-import { useState } from 'react';
-import { Routes, Route, Link, useParams } from 'react-router-dom';
-import './App.scss'
-import { Header } from './components';
-import Layout from './components/Layout/Layout';
-import News from './pages/News/News';
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
+import './App.scss';
+import { Layout } from './components';
+import { News, Error, Post, singlePostLoader } from './pages';
+
+const router = createBrowserRouter(createRoutesFromElements(
+	<Route path='/' element={<Layout />}>
+		<Route path='/' element={<h1>lol</h1>} />
+		<Route path='/news' element={<News itemsPerPage={9} />} />
+		<Route path='/news/:postId' element={<Post />} loader={singlePostLoader} />
+		<Route path='/:smth' element={<Error />} />
+	</Route>
+))
 
 function App() {
 	return (
-		<Routes>
-			<Route path='/' element={<Layout />}>
-				<Route path='/news' element={<News />} />
-				<Route path='/:smth' element={<p>im not existing yet</p>} />
-			</Route>
-		</Routes>
+		<RouterProvider router={router} />
 	)
 }
 

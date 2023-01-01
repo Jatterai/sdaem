@@ -4,14 +4,19 @@ import { TSearch } from '../../types';
 
 const Search = (props: TSearch) => {
 	return (
-		<div className={styles.container + (props.className ? ` ${props.className}` : '')}>
+		<form
+			className={styles.container + (props.className ? ` ${props.className}` : '')}
+			onSubmit={props.handleSubmit}
+		>
 			<input
 				className={styles.input}
 				type="text"
-				placeholder={props.placeholder}
+				placeholder={props.placeholder || ''}
+				value={props.searchInputValue}
+				onChange={props.handleChange}
 			/>
 			<button className={styles.btn}><i className='_icon-search'></i></button>
-		</div>
+		</form>
 	)
 }
 

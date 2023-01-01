@@ -1,1 +1,9 @@
 export { default as Header } from './Header/Header';
+export { default as Footer } from './Footer/Footer';
+export { default as Breadcrumps } from './Breadcrumps/Breadcrumps';
+export { default as Card } from './Card/Card';
+export { default as Container } from './Container/Container';
+export { default as Title } from './Title/Title';
+export { default as Layout } from './Layout/Layout';
+export { default as Search } from './Search/Search';
+export { default as PostBody } from './PostBody/PostBody.jsx';

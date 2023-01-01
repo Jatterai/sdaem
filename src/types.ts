@@ -16,6 +16,9 @@ export type TTitle = {
 }
 
 export type TSearch = {
+	handleSubmit: (param: object) => void,
+	searchInputValue: string,
+	handleChange: (param: object) => void,
 	className?: string,
 	placeholder?: string,
 }
@@ -26,4 +29,19 @@ export type TCard = {
 	img: string,
 	text: string,
 	date: string,
+}
+
+export type TNewsProps = {
+	itemsPerPage: number,
+}
+
+export type TLinks = {
+	name: string,
+	link: string,
+	current: boolean
+}
+
+export type TBreadcrumbProps = {
+	className: string,
+	links: TLinks[],
 }

@@ -13,6 +13,12 @@
 	box-shadow: 0px 10px 20px rgba(0, 96, 206, 0.05);
 	border-radius: 20px;
 	width: 100%;
+
+	transition: 300ms;
+	&:focus {
+		outline: none;
+		box-shadow: 0px 0px 10px #654ef951;
+	}
 }
 
 .btn {
@@ -28,4 +34,5 @@
 	border-radius: 19px;
 	color: white;
 	font-size: 17px;
+	cursor: pointer;
 }

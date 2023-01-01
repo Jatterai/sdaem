@@ -12,8 +12,32 @@
 
 .to {
 	color: #686868;
+	li {
+		white-space: nowrap;
+	}
+	.link {
+		display: flex;
+		align-items: center;
+		color: #664ef9;
+		cursor: pointer;
+	}
+	li:not(:first-child) {
+		&:before {
+			content: "•";
+			color: inherit;
+			margin-right: 7px;
+		}
+	}
 }
 
 .from {
 	color: #664ef9;
+}
+
+.current {
+	@media (max-width: 620px) {
+		max-width: 50vw;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
 }

@@ -8,6 +8,11 @@
 	box-shadow: 0px 20px 40px rgba(135, 124, 202, 0.15);
 }
 
+.picture_wrapper {
+	display: block;
+	width: fit-content;
+}
+
 .img {
 	width: 100%;
 	aspect-ratio: 1 / 0.5566;
@@ -89,7 +94,8 @@
 	color: #8291a3;
 }
 
-.link {
+.link,
+.link:visited {
 	text-decoration: none;
 	color: #664ef9;
 	font-weight: 700;
