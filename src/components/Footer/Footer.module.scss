@@ -105,7 +105,7 @@
 
 	.aparments,
 	.addSections {
-		font-size: (14/16) + rem;
+		font-size: calc(14 / 16 * 1rem);
 		line-height: 17/14;
 
 		.title {
@@ -128,7 +128,7 @@
 		width: 100%;
 		grid-column: 2/-1;
 		font-size: calc(14 / 16 * 1em);
-		line-height: (17/14) + em;
+		line-height: calc(17 / 14 * 1em);
 		color: #1e2123;
 		display: flex;
 		align-items: center;
@@ -136,7 +136,7 @@
 
 		.title {
 			font-weight: 700;
-			margin-right: 25/14 + em;
+			margin-right: calc(25 / 14 * 1em);
 		}
 
 		.main {

@@ -1,9 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useRouteError } from 'react-router-dom';
 import Container from '../../components/Container/Container';
 import style from './Error.module.scss'
 
 const Error = () => {
+	const error = useRouteError();
+
 	return (
 		<section className={style.error}>
 			<Container className={style.container}>

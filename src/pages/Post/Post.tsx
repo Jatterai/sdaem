@@ -43,13 +43,16 @@ const Post = () => {
 
 const getPostById = async (postId) => {
 	const res = await fetch(`http://localhost:3000/news/${postId}`);
+	if (!res.ok) throw new Response('', { status: res.status, statusText: 'Not Found' })
 	return res.json();
 }
 
 const getMorePosts = async (id) => {
 	const res = await axios.get(`http://localhost:3000/news`);
-	const data = res.data;
 
+	if (res.status !== 200) throw new Response('', { status: res.status, statusText: 'Not Found' })
+
+	const data = res.data;
 	const filtered = data.filter((e: TCard) => e.id != id);
 	const randomNum = Math.floor(Math.random() * (filtered.length - 3))
 	const randomThree = filtered.slice(randomNum, randomNum + 3);
@@ -60,8 +63,6 @@ const getMorePosts = async (id) => {
 export const singlePostLoader = async ({ request, params }) => {
 	const postId = params.postId;
 	window.scrollTo(0, 0);
-	console.log(request);
-	console.log(params)
 	return defer({ morePosts: getMorePosts(postId), post: getPostById(postId), postId })
 }
 
