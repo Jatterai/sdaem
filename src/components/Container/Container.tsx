@@ -7,12 +7,10 @@ interface СontainerProps {
 }
 
 
-const Container = (props: СontainerProps) => {
+export const Container = (props: СontainerProps) => {
 	return (
 		<div className={`${styles.container} ${props.className}`}>
 			{props.children}
 		</div>
 	)
 }
-
-export default Container

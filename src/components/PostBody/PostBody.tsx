@@ -1,9 +1,9 @@
 import React from 'react';
 import { useAsyncValue } from 'react-router-dom';
 import styles from './PostBody.module.scss';
-import { Container, Title, Breadcrumps } from '../index';
+import { Title, Breadcrumps } from '../index';
 
-const PostBody = () => {
+export const PostBody = () => {
 	const post = useAsyncValue();
 	const paragraphs = post ? post.text.split(/\n/).map(e => (<p className={styles.p}>{e}</p>)) : ''
 	return (
@@ -36,5 +36,3 @@ const PostBody = () => {
 		</div>
 	)
 }
-
-export default PostBody

@@ -63,7 +63,7 @@ const getMorePosts = async (id) => {
 export const singlePostLoader = async ({ request, params }) => {
 	const postId = params.postId;
 	window.scrollTo(0, 0);
-	return defer({ morePosts: getMorePosts(postId), post: getPostById(postId), postId })
+	return defer({ morePosts: getMorePosts(postId), post: getPostById(postId), postId });
 }
 
 export default Post

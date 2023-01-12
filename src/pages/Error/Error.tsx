@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link, useRouteError } from 'react-router-dom';
-import Container from '../../components/Container/Container';
+import { Container } from '../../components/Container/Container';
 import style from './Error.module.scss'
 
 const Error = () => {
 	const error = useRouteError();
 
 	return (
-		<section className={style.error}>
+		<section className={`${style.error} bg-with-map`}>
 			<Container className={style.container}>
 				<div className={style.info}>
 					<h2 className={style.title}>Ошибка 404</h2>

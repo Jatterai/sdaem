@@ -1,23 +1,28 @@
-import React from 'react';
 import styles from './Search.module.scss';
 import { TSearch } from '../../types';
+import { Form } from 'react-router-dom';
 
-const Search = (props: TSearch) => {
+export const Search = (props: TSearch) => {
+	console.log(props);
 	return (
-		<form
+		<Form
+			action='/news'
+			method='get'
 			className={styles.container + (props.className ? ` ${props.className}` : '')}
-			onSubmit={props.handleSubmit}
 		>
 			<input
 				className={styles.input}
+				value={props.value}
+				onChange={props.onChange}
+				name='q'
 				type="text"
 				placeholder={props.placeholder || ''}
-				value={props.searchInputValue}
-				onChange={props.handleChange}
 			/>
-			<button className={styles.btn}><i className='_icon-search'></i></button>
-		</form>
+			<button
+				className={styles.btn}
+				disabled={(props.submitting === 'loading')}
+			><i className='_icon-search'></i>
+			</button>
+		</Form>
 	)
 }
-
-export default Search

@@ -1,4 +1,5 @@
 .error {
+	position: relative;
 	flex: 1 0 auto;
 	display: flex;
 	justify-content: center;
@@ -6,19 +7,32 @@
 	font-family: "Inter";
 	min-height: 600px;
 
-	background-color: #7e6af3;
-	background: url("../../assets/decorations/dots.svg") 5.5% 18% no-repeat,
-		url("../../assets/decorations/dots.svg") bottom 13% right 13% no-repeat,
-		linear-gradient(0deg, #20107b29 1.04%, #2d0d8531 100%), url("../../assets/decorations/map.png"),
-		linear-gradient(0deg, #7e6af3 1.04%, #6540cd 100%);
-	background-blend-mode: normal;
-	@media (max-width: 566px) {
-		background: linear-gradient(0deg, #20107b29 1.04%, #2d0d8531 100%), url("../../assets/decorations/map.png"),
-			linear-gradient(0deg, #7e6af3 1.04%, #6540cd 100%);
+	&:before,
+	&:after {
+		z-index: 1;
+		position: absolute;
+		content: "";
+		display: block;
+		width: 68px;
+		aspect-ratio: 1 / 1;
+		background: url("../../assets/decorations/dots.svg") top center/ cover no-repeat;
+		@media (max-width: 500px) {
+			display: none;
+		}
+	}
+	&::after {
+		bottom: 12%;
+		right: 12.7%;
+	}
+	&::before {
+		left: 5.3%;
+		top: 16%;
 	}
 }
 
 .container {
+	position: relative;
+	z-index: 2;
 	display: flex;
 	justify-content: center;
 	align-items: center;

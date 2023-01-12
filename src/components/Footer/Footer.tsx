@@ -1,5 +1,5 @@
-import React from 'react';
-import Container from '../Container/Container';
+
+import { Container } from '../index';
 import styles from './Footer.module.scss';
 import logo from '../../assets/logo.png';
 import { NavLink } from 'react-router-dom';
@@ -14,7 +14,7 @@ import belcard from '../../assets/banks/secart.png';
 
 
 
-const Footer = () => {
+export const Footer = () => {
 	return (
 		<footer className={styles.footer}>
 			<Container className={styles.container}>
@@ -76,5 +76,3 @@ const Footer = () => {
 		</footer>
 	)
 }
-
-export default Footer

@@ -1,0 +1,263 @@
+.contacts {
+	flex: 1 0 auto;
+	&__row {
+		font-weight: 600;
+		font-size: calc(18 / 16 * 1rem);
+		line-height: 1.5;
+		.thin {
+			font-weight: 400;
+		}
+		@media (max-width: 800px) {
+			font-size: calc(15 / 16 * 1rem);
+		}
+	}
+
+	&__item {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+		i {
+			width: 30px;
+			aspect-ratio: 1 / 1;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 15px;
+			background: rgba(255, 255, 255, 0.1);
+			border-radius: 50%;
+			svg {
+				height: 15px;
+			}
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 11px;
+		}
+		.circles {
+			display: flex;
+			gap: 10px;
+			@media (max-width: 500px) {
+				display: none;
+			}
+		}
+	}
+}
+
+.container {
+	padding-block: 77px 95px;
+	display: grid;
+	grid-template-columns: 39% 1fr 45px;
+	gap: 46px;
+	@media (max-width: 1040px) {
+		padding-block: 50px;
+		grid-template-columns: 1fr;
+	}
+}
+
+.info,
+.social_media {
+	color: white;
+	a,
+	a:visited {
+		color: inherit;
+	}
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	@media (max-width: 1040px) {
+		gap: 23px;
+	}
+	@media (max-width: 500px) {
+		p {
+			text-align: center;
+		}
+	}
+	.description {
+		font-size: 1rem;
+		line-height: 1.5;
+	}
+	.title {
+		font-weight: 700;
+		font-size: calc(30 / 16 * 1rem);
+		line-height: 1;
+		@media (max-width: 1040px) {
+			text-align: center;
+			font-size: calc(25 / 16 * 1rem);
+		}
+	}
+	.alert {
+		background: rgba(80, 57, 189, 0.5);
+		border-radius: 10px;
+		display: flex;
+		gap: 22px;
+		align-items: center;
+		margin-top: 10px;
+		padding: 21px 25px 21px 28px;
+		p {
+			font-weight: 500;
+			line-height: 150%;
+		}
+		svg {
+			flex: 0 0 auto;
+			path {
+				fill: #5039bd;
+			}
+		}
+		@media (max-width: 1040px) {
+			justify-content: center;
+		}
+	}
+}
+
+.form {
+	padding: 40px 38px 44px;
+	background: #fffefe;
+	box-shadow: 0px 20px 40px rgba(39, 95, 158, 0.2);
+	border-radius: 10px;
+	margin-right: 18px;
+	@media (max-width: 1200px) {
+		padding: 30px 35px;
+	}
+	@media (max-width: 600px) {
+		padding: 20px;
+	}
+
+	.inputs {
+		display: flex;
+		gap: 30px;
+		margin-bottom: 32px;
+		@media (max-width: 1200px) {
+			flex-direction: column;
+		}
+	}
+	.input_container {
+		position: relative;
+		width: 100%;
+		svg {
+			position: absolute;
+			top: 15px;
+			left: 20px;
+			opacity: 0.3;
+			path {
+				fill: #686868;
+			}
+		}
+	}
+
+	label {
+		flex: 1 1 auto;
+		& * {
+			transition: 200ms;
+		}
+		span {
+			display: block;
+			font-weight: 500;
+			font-size: calc(14 / 16 * 1rem);
+			line-height: calc(17 / 14);
+			color: #686868;
+			margin-bottom: calc(15 / 14 * 1em);
+		}
+		input,
+		textarea {
+			background: #f8f8f8;
+			border-radius: 30px;
+			padding: 15px;
+			font-family: "Inter";
+			font-weight: 500;
+			font-size: calc(14 / 16 * 1rem);
+			line-height: calc(17 / 14);
+			color: #1e2123;
+		}
+		input {
+			display: block;
+			width: 100%;
+			padding-left: 55px;
+		}
+		textarea {
+			padding-left: 20px;
+		}
+
+		&:has(input:focus),
+		&:has(textarea:focus) {
+			input,
+			textarea {
+				outline: 2px solid rgba(102, 78, 249, 0.8);
+				background: #fff;
+			}
+			svg {
+				opacity: 1;
+				path {
+					fill: rgba(102, 78, 249, 0.8);
+				}
+			}
+		}
+
+		&:has(input:invalid),
+		&:has(textarea:invalid) {
+			input,
+			textarea {
+				outline: 2px solid rgba(255, 0, 0, 0.8);
+				background: #fff;
+			}
+			svg {
+				opacity: 1;
+				path {
+					fill: rgba(255, 0, 0, 0.8);
+				}
+			}
+		}
+	}
+
+	textarea {
+		width: 100%;
+		height: 200px;
+		resize: none;
+		margin-bottom: 40px;
+	}
+	button {
+		display: block;
+		padding: 12px 56px;
+		background: #664ef9;
+		border-radius: 33px;
+		font-weight: 700;
+		font-size: 1rem;
+		line-height: 150%;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		color: #ffffff;
+		margin: 0 auto;
+		cursor: pointer;
+		&:hover {
+			background: #5a44ea;
+		}
+	}
+}
+
+.social_media {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	align-items: center;
+	justify-content: flex-start;
+	a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		max-width: 55px;
+		aspect-ratio: 1 /1;
+		border-radius: 50%;
+		background: rgba(255, 255, 255, 0.1);
+		i {
+			font-size: 20px;
+		}
+	}
+	@media (max-width: 1040px) {
+		flex-direction: row;
+		justify-content: center;
+	}
+}

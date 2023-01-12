@@ -1,0 +1,70 @@
+.modal {
+}
+
+.message {
+	background: #fffefe;
+	box-shadow: 0px 20px 40px rgba(39, 95, 158, 0.2);
+	border-radius: 10px;
+}
+
+.container {
+	padding: 30px 15px;
+	position: fixed;
+	z-index: 100;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.message {
+	background: #fffefe;
+	box-shadow: 0px 20px 40px rgba(39, 95, 158, 0.2);
+	border-radius: 10px;
+	text-align: center;
+	padding: 50px 31px;
+	max-width: 406px;
+	min-width: 280px;
+	animation-iteration-count: 1;
+	animation-name: show-on;
+	animation-duration: 500ms;
+	animation-fill-mode: forwards;
+	.title {
+		font-weight: 700;
+		font-size: calc(25 / 16 * 1rem);
+		line-height: calc(30 / 25);
+		text-align: center;
+		margin-bottom: (20/25 * 1em);
+	}
+	p {
+		font-weight: 400;
+		font-size: calc(14 / 16 * 1rem);
+		line-height: calc(17 / 14);
+		text-align: center;
+		color: #686868;
+		margin-bottom: 30px;
+	}
+	button {
+		font-weight: 700;
+		font-size: 1rem;
+		line-height: 150%;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		color: #1e2123;
+		margin: 0 auto;
+		background: #ffd54f;
+		border-radius: 33px;
+		padding: 12px 24px;
+	}
+}
+
+@keyframes show-on {
+	from {
+		scale: 0;
+		rotate: 7200deg;
+	}
+	to {
+		scale: 1;
+		rotate: 0deg;
+	}
+}

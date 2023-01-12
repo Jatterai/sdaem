@@ -1,3 +1,5 @@
 export { default as Error } from './Error/Error';
-export { default as News } from './News/News';
+export { default as News, newsLoader } from './News/News';
 export { default as Post, singlePostLoader } from './Post/Post';
+export { Contacts } from './Contacts/Contacts';
+export { AuthPage } from './AuthPage/AuthPage';

@@ -1,49 +1,17 @@
-import React, { useEffect, useState } from 'react';
-import Breadcrumps from '../../components/Breadcrumps/Breadcrumps';
-import Card from '../../components/Card/Card';
-import Container from '../../components/Container/Container';
-import Search from '../../components/Search/Search';
-import Title from '../../components/Title/Title';
+import { Suspense, useState } from 'react';
+import { Breadcrumps, Container, Search, Title } from '../../components'
 import styles from './News.module.scss';
 import axios from 'axios';
-import { TCard, TNewsProps } from '../../types';
-import ReactPaginate from 'react-paginate';
-import { useSearch } from '../../hooks/useSearch';
-
-
+import { TNewsProps } from '../../types';
+import { Await, defer, useLoaderData, useNavigation } from 'react-router-dom';
+import { NewsCards } from '../../components';
 
 
 const News = ({ itemsPerPage }: TNewsProps) => {
-	const [news, setNews] = useState([false]);
-	const [itemOffset, setItemOffset] = useState(0);
+	const { news, query } = useLoaderData();
+	const navigation = useNavigation();
+	const [searchValue, setSearchValue] = useState(query || '');
 
-	const {
-		handleSubmit,
-		handleChange,
-		searchInputValue,
-		query,
-		searchParams
-	} = useSearch();
-
-	const endOffset = itemOffset + itemsPerPage;
-
-	const currentItems = news.slice(itemOffset, endOffset);
-	const pageCount = Math.ceil(news.length / itemsPerPage);
-
-	const handlePageClick = (event) => {
-		const newOffset = (event.selected * itemsPerPage) % news.length;
-		setItemOffset(newOffset);
-		window.scrollTo(0, 0)
-	};
-
-	useEffect(() => {
-		setNews([false]);
-		const searchLine = query ? `?${searchParams.toString()}` : '';
-		axios.get(`http://localhost:3000/news${searchLine}`)
-			.then(({ data }) => { setNews(data) })
-	}, [query])
-
-	const newsElements = currentItems.map((el: TCard) => (<Card key={el.id} {...el} />));
 	return (
 		<section className={styles.news}>
 			<Container className={styles.container}>
@@ -56,38 +24,38 @@ const News = ({ itemsPerPage }: TNewsProps) => {
 				<div className={styles['title__wrapper']}>
 					<Title addClass={styles.title}>Новости</Title>
 					<Search
+						value={searchValue}
+						onChange={(e) => setSearchValue(e.target.value)}
+						submitting={navigation.state}
 						className={styles.input}
 						placeholder='Поиск по новостям'
-						handleSubmit={handleSubmit}
-						searchInputValue={searchInputValue}
-						handleChange={handleChange}
 					/>
 				</div>
-				{!news.length ?
-					<p className={styles.notFound}>Такого нету</p> :
-					!news[0] ?
-						<p className='loading'>зогружаю</p> :
-						<div className={styles.cards}>
-							{newsElements}
-						</div>
-				}
-				<ReactPaginate
-					className={styles.paginateContainer}
-					pageClassName={styles.li}
-					pageLinkClassName={styles.link}
-					activeClassName={styles['li__active']}
-					activeLinkClassName={styles['link__active']}
+				<Suspense fallback={<p className='loading'>погодь</p>}>
+					<Await resolve={news}>
+						{navigation.state === 'loading' ? <p className='loading'>погодь</p> : <NewsCards itemsPerPage={itemsPerPage} />}
+					</Await>
+				</Suspense>
 
-					breakLabel="..."
-					nextLabel=""
-					onPageChange={handlePageClick}
-					pageRangeDisplayed={5}
-					pageCount={pageCount}
-					previousLabel=""
-				/>
 			</Container>
 		</section>
 	)
+}
+
+
+
+
+const loadNews = async (param) => {
+	const search = param ? `?${param}` : ""
+	const res = await axios.get(`http://localhost:3000/news/${search}`);
+	return res.data;
+}
+
+export const newsLoader = async ({ request, params }) => {
+	let url = new URL(request.url);
+	let query = url.searchParams.toString();
+
+	return defer({ news: loadNews(query), query: url.searchParams.get('q') });
 }
 
 export default News

@@ -5,7 +5,7 @@ import apartment from '../../assets/home.jpg';
 import { TCard } from '../../types';
 
 
-const Card = (props: TCard) => {
+export const Card = (props: TCard) => {
 	return (
 		<div className={styles.card}>
 			<Link to={`/news/${props.id}`} className={styles.picture_wrapper}>
@@ -27,5 +27,3 @@ const Card = (props: TCard) => {
 		</div>
 	)
 }
-
-export default Card

@@ -3,6 +3,10 @@
 	box-shadow: 0px -11px 40px rgba(39, 95, 158, 0.05);
 	white-space: nowrap;
 	background: white;
+	a,
+	a:visited {
+		color: inherit;
+	}
 }
 
 .container {
@@ -113,7 +117,7 @@
 			line-height: inherit;
 			color: #1e2123;
 			font-weight: 700;
-			margin-bottom: calc(12 / 14 * 1em) + em;
+			margin-bottom: calc(12 / 14 * 1em);
 		}
 	}
 

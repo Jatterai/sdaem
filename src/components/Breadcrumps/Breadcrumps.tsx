@@ -5,7 +5,7 @@ import { TBreadcrumbProps } from '../../types';
 
 
 
-const Breadcrumps = ({ className, links }: TBreadcrumbProps) => {
+export const Breadcrumps = ({ className, links }: TBreadcrumbProps) => {
 	const linksElements = links.map(
 		el => !el.current ?
 			<li>
@@ -24,5 +24,3 @@ const Breadcrumps = ({ className, links }: TBreadcrumbProps) => {
 		</div>
 	)
 }
-
-export default Breadcrumps

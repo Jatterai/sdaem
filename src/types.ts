@@ -16,9 +16,9 @@ export type TTitle = {
 }
 
 export type TSearch = {
-	handleSubmit: (param: object) => void,
-	searchInputValue: string,
-	handleChange: (param: object) => void,
+	value?: string,
+	onChange?: (param: object) => void,
+	submitting?: string,
 	className?: string,
 	placeholder?: string,
 }
@@ -44,4 +44,8 @@ export type TLinks = {
 export type TBreadcrumbProps = {
 	className: string,
 	links: TLinks[],
+}
+
+export type TModalProps = {
+	onClick: () => void;
 }
