@@ -43,8 +43,6 @@ const News = ({ itemsPerPage }: TNewsProps) => {
 }
 
 
-
-
 const loadNews = async (param) => {
 	const search = param ? `?${param}` : ""
 	const res = await axios.get(`http://localhost:3000/news/${search}`);

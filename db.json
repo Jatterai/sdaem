@@ -147,5 +147,4028 @@
 			"text": "Дилан Майкл Хартли (англ. Dylan Michael Hartley; родился 24 марта 1986 в Роторуа, Новая Зеландия) — английский профессиональный регбист новозеландского происхождения. Выступал за сборную Англии, где с 2016 года занимал должность капитана, и «Нортгемптон Сэйнтс» на позиции хукера. Печально известен своими выходками на поле — игрока неоднократно отстраняли за грязную игру или неспортивное поведение, что, в конце концов, стоило ему места в составе сборной на домашнем чемпионате мира.\nВ составе клуба и сборной Хартли добился множества успехов: за свою карьеру он стал чемпионом Англии, двукратным обладателем Англо-валлийского кубка и Кубка вызова, а также трёхкратным обладателем Кубка шести наций. Кроме того, ему принадлежит рекорд по количеству матчей за национальную сборную на позиции хукера.",
 			"date": "3 октября 2077"
 		}
+	],
+	"apartments": [
+		{
+			"id": 1,
+			"img": "/src/assets/apartms/5.jpg",
+			"price": 52,
+			"roomsCount": 3,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "б-р Мулявина",
+				"number": 152,
+				"subway": "Грушевка",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Духовка",
+				"Микроволновая печь",
+				"Посудомоечная машина",
+				"Птица",
+				"Дыра в потолке",
+				"Ванная",
+				"Душевая кабина",
+				"Чайник",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Люк Скайуокер",
+				"img": "/src/assets/owners/luk.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 2,
+			"img": "/src/assets/apartms/11.jpg",
+			"price": 73,
+			"roomsCount": 4,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 131,
+				"subway": "Нью-Йоркская",
+				"district": "Глухой"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Кофеварка",
+				"Посуда",
+				"Посудомоечная машина",
+				"Веселый сосед",
+				"Птица",
+				"Ванная",
+				"Перекись водорода",
+				"Делориан",
+				"Холодильник",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Эрен Йегер",
+				"img": "/src/assets/owners/Eren.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 3,
+			"img": "/src/assets/apartms/20.jpg",
+			"price": 74,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 124,
+				"subway": "Нью-Йоркская",
+				"district": "Глухой"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Посудомоечная машина",
+				"Веселый сосед",
+				"Птица",
+				"Золотой унитаз",
+				"Труп мыши",
+				"Ванная",
+				"Игровая приставка",
+				"Холодильник",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Сайки Кусуо",
+				"img": "/src/assets/owners/saiki.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 4,
+			"img": "/src/assets/apartms/12.jpg",
+			"price": 64,
+			"roomsCount": 3,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. имени Восканова",
+				"number": 37,
+				"subway": "Московская",
+				"district": "Шабаны"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Кофеварка",
+				"Посуда",
+				"Веселый сосед",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Труп мыши",
+				"Чайник",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Холодильник",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Сайки Кусуо",
+				"img": "/src/assets/owners/saiki.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 5,
+			"img": "/src/assets/apartms/15.jpg",
+			"price": 59,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. имени Восканова",
+				"number": 68,
+				"subway": "Грушевка",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Лук",
+				"Сломанный телефон",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Оптимус Прайм",
+				"img": "/src/assets/owners/optimus.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 6,
+			"img": "/src/assets/apartms/4.jpg",
+			"price": 93,
+			"roomsCount": 2,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 20,
+				"subway": "Смешная",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Микроволновая печь",
+				"Посуда",
+				"Птица",
+				"5мм пыли",
+				"Душевая кабина",
+				"Перекись водорода",
+				"Лук",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Стюарт Литтл",
+				"img": "/src/assets/owners/stuart.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 7,
+			"img": "/src/assets/apartms/12.jpg",
+			"price": 82,
+			"roomsCount": 4,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "б-р Мулявина",
+				"number": 122,
+				"subway": "Смешная",
+				"district": "Октябрьский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Кофеварка",
+				"Душевая кабина",
+				"Перекись водорода",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Делориан",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Гомер Симпсон",
+				"img": "/src/assets/owners/homer.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 8,
+			"img": "/src/assets/apartms/19.jpg",
+			"price": 67,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 105,
+				"subway": "Смешная",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Микроволновая печь",
+				"Посуда",
+				"Птица",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"5мм пыли",
+				"DVD-проигрыватель",
+				"Сломанный телефон",
+				"Делориан",
+				"Холодильник",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Люк Скайуокер",
+				"img": "/src/assets/owners/luk.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 9,
+			"img": "/src/assets/apartms/5.jpg",
+			"price": 56,
+			"roomsCount": 4,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "б-р Мулявина",
+				"number": 71,
+				"subway": "Позорная",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Микроволновая печь",
+				"Посуда",
+				"Посудомоечная машина",
+				"Веселый сосед",
+				"Золотой унитаз",
+				"5мм пыли",
+				"Ванная",
+				"Душевая кабина",
+				"Перекись водорода",
+				"Лук",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Делориан",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Гомер Симпсон",
+				"img": "/src/assets/owners/homer.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 10,
+			"img": "/src/assets/apartms/7.jpg",
+			"price": 45,
+			"roomsCount": 5,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 149,
+				"subway": "Смешная",
+				"district": "Октябрьский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посуда",
+				"Веселый сосед",
+				"Птица",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Ванная",
+				"Душевая кабина",
+				"Перекись водорода",
+				"Лук",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Делориан"
+			],
+			"owner": {
+				"name": "Люк Скайуокер",
+				"img": "/src/assets/owners/luk.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 11,
+			"img": "/src/assets/apartms/2.jpg",
+			"price": 59,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 114,
+				"subway": "Позорная",
+				"district": "Шабаны"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посудомоечная машина",
+				"5мм пыли",
+				"Труп мыши",
+				"Чайник",
+				"Перекись водорода",
+				"Лук",
+				"Сломанный телефон",
+				"Холодильник"
+			],
+			"owner": {
+				"name": "Сайки Кусуо",
+				"img": "/src/assets/owners/saiki.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 12,
+			"img": "/src/assets/apartms/3.jpg",
+			"price": 85,
+			"roomsCount": 3,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 145,
+				"subway": "Смешная",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Духовка",
+				"Микроволновая печь",
+				"Огромный краб",
+				"Веселый сосед",
+				"Птица",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"Душевая кабина",
+				"Лук",
+				"Игровая приставка",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Уолтер Уайт",
+				"img": "/src/assets/owners/walter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 13,
+			"img": "/src/assets/apartms/20.jpg",
+			"price": 58,
+			"roomsCount": 5,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 83,
+				"subway": "Московская",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Кофеварка",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Птица",
+				"Золотой унитаз",
+				"Труп мыши",
+				"Ванная",
+				"Лук",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Делориан",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Эрен Йегер",
+				"img": "/src/assets/owners/Eren.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 14,
+			"img": "/src/assets/apartms/10.jpg",
+			"price": 50,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 33,
+				"subway": "Московская",
+				"district": "Глухой"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Микроволновая печь",
+				"Огромный краб",
+				"Веселый сосед",
+				"Дыра в потолке",
+				"Труп мыши",
+				"Чайник",
+				"Перекись водорода",
+				"DVD-проигрыватель",
+				"Портал на луну",
+				"Делориан",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Сайки Кусуо",
+				"img": "/src/assets/owners/saiki.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 15,
+			"img": "/src/assets/apartms/12.jpg",
+			"price": 53,
+			"roomsCount": 3,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 14,
+				"subway": "Грушевка",
+				"district": "Приморский"
+			},
+			"stuff": [
+				"Микроволновая печь",
+				"Посудомоечная машина",
+				"Веселый сосед",
+				"Птица",
+				"Золотой унитаз",
+				"5мм пыли",
+				"Душевая кабина",
+				"Перекись водорода",
+				"Лук",
+				"DVD-проигрыватель",
+				"Портал на луну",
+				"Делориан"
+			],
+			"owner": {
+				"name": "Дмитрий Куплинов",
+				"img": "/src/assets/owners/kuplinov.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 16,
+			"img": "/src/assets/apartms/9.jpg",
+			"price": 83,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. имени Восканова",
+				"number": 51,
+				"subway": "Смешная",
+				"district": "Шабаны"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посудомоечная машина",
+				"Веселый сосед",
+				"5мм пыли",
+				"Труп мыши",
+				"Душевая кабина",
+				"Лук",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Холодильник",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Гомер Симпсон",
+				"img": "/src/assets/owners/homer.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 17,
+			"img": "/src/assets/apartms/9.jpg",
+			"price": 54,
+			"roomsCount": 4,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 150,
+				"subway": "Грушевка",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посуда",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Птица",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Ванная",
+				"Душевая кабина",
+				"Чайник",
+				"Лук",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Холодильник"
+			],
+			"owner": {
+				"name": "Люк Скайуокер",
+				"img": "/src/assets/owners/luk.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 18,
+			"img": "/src/assets/apartms/6.jpg",
+			"price": 67,
+			"roomsCount": 3,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. имени Восканова",
+				"number": 67,
+				"subway": "Нью-Йоркская",
+				"district": "Октябрьский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"Перекись водорода",
+				"Лук",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Люк Скайуокер",
+				"img": "/src/assets/owners/luk.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 19,
+			"img": "/src/assets/apartms/9.jpg",
+			"price": 82,
+			"roomsCount": 3,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "пр-т Майоровой",
+				"number": 116,
+				"subway": "Смешная",
+				"district": "Приморский"
+			},
+			"stuff": [
+				"Духовка",
+				"Кофеварка",
+				"Посуда",
+				"Птица",
+				"Золотой унитаз",
+				"5мм пыли",
+				"Душевая кабина",
+				"Чайник",
+				"DVD-проигрыватель",
+				"Сломанный телефон",
+				"Холодильник"
+			],
+			"owner": {
+				"name": "Гомер Симпсон",
+				"img": "/src/assets/owners/homer.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 20,
+			"img": "/src/assets/apartms/15.jpg",
+			"price": 57,
+			"roomsCount": 4,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "б-р Мулявина",
+				"number": 127,
+				"subway": "Грушевка",
+				"district": "Шабаны"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Кофеварка",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Веселый сосед",
+				"Птица",
+				"Дыра в потолке",
+				"Труп мыши",
+				"Чайник",
+				"Лук",
+				"Портал на луну",
+				"Делориан"
+			],
+			"owner": {
+				"name": "Гомер Симпсон",
+				"img": "/src/assets/owners/homer.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 21,
+			"img": "/src/assets/apartms/9.jpg",
+			"price": 81,
+			"roomsCount": 4,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "пр-т Майоровой",
+				"number": 163,
+				"subway": "Нью-Йоркская",
+				"district": "Приморский"
+			},
+			"stuff": [
+				"Духовка",
+				"Веселый сосед",
+				"Птица",
+				"Чайник",
+				"Перекись водорода",
+				"Лук",
+				"Игровая приставка",
+				"Делориан",
+				"Холодильник"
+			],
+			"owner": {
+				"name": "Сайки Кусуо",
+				"img": "/src/assets/owners/saiki.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 22,
+			"img": "/src/assets/apartms/9.jpg",
+			"price": 93,
+			"roomsCount": 3,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "б-р Мулявина",
+				"number": 80,
+				"subway": "Московская",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Посуда",
+				"Птица",
+				"Золотой унитаз",
+				"5мм пыли",
+				"Труп мыши",
+				"Чайник",
+				"DVD-проигрыватель",
+				"Холодильник",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Питер Паркер",
+				"img": "/src/assets/owners/peter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 23,
+			"img": "/src/assets/apartms/20.jpg",
+			"price": 86,
+			"roomsCount": 3,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Тисовая",
+				"number": 47,
+				"subway": "Смешная",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Духовка",
+				"Микроволновая печь",
+				"Посуда",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Веселый сосед",
+				"Птица",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Чайник",
+				"Перекись водорода",
+				"Лук",
+				"Игровая приставка",
+				"Холодильник"
+			],
+			"owner": {
+				"name": "Стюарт Литтл",
+				"img": "/src/assets/owners/stuart.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 24,
+			"img": "/src/assets/apartms/17.jpg",
+			"price": 84,
+			"roomsCount": 5,
+			"bedroomCount": 5,
+			"adress": {
+				"city": "Минск",
+				"street": "б-р Мулявина",
+				"number": 102,
+				"subway": "Позорная",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Огромный краб",
+				"Золотой унитаз",
+				"5мм пыли",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Холодильник",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Дмитрий Куплинов",
+				"img": "/src/assets/owners/kuplinov.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 25,
+			"img": "/src/assets/apartms/5.jpg",
+			"price": 90,
+			"roomsCount": 2,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 31,
+				"subway": "Позорная",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Духовка",
+				"Микроволновая печь",
+				"Посуда",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Веселый сосед",
+				"Птица",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"Лук",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Холодильник",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Уолтер Уайт",
+				"img": "/src/assets/owners/walter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 26,
+			"img": "/src/assets/apartms/10.jpg",
+			"price": 60,
+			"roomsCount": 2,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Тисовая",
+				"number": 159,
+				"subway": "Смешная",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Микроволновая печь",
+				"Веселый сосед",
+				"Птица",
+				"Труп мыши",
+				"Ванная",
+				"Чайник",
+				"Перекись водорода",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Эрен Йегер",
+				"img": "/src/assets/owners/Eren.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 27,
+			"img": "/src/assets/apartms/18.jpg",
+			"price": 96,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Тисовая",
+				"number": 74,
+				"subway": "Нью-Йоркская",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Огромный краб",
+				"Птица",
+				"Золотой унитаз",
+				"5мм пыли",
+				"Чайник",
+				"Перекись водорода",
+				"Лук",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Делориан",
+				"Холодильник",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Оптимус Прайм",
+				"img": "/src/assets/owners/optimus.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 28,
+			"img": "/src/assets/apartms/17.jpg",
+			"price": 50,
+			"roomsCount": 2,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "пр-т Майоровой",
+				"number": 49,
+				"subway": "Нью-Йоркская",
+				"district": "Приморский"
+			},
+			"stuff": [
+				"Духовка",
+				"Кофеварка",
+				"Золотой унитаз",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"Чайник",
+				"Сломанный телефон",
+				"Делориан",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Уолтер Уайт",
+				"img": "/src/assets/owners/walter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 29,
+			"img": "/src/assets/apartms/12.jpg",
+			"price": 55,
+			"roomsCount": 4,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 162,
+				"subway": "Крутецкая",
+				"district": "Октябрьский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посудомоечная машина",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Чайник",
+				"Перекись водорода",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Делориан",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Эрен Йегер",
+				"img": "/src/assets/owners/Eren.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 30,
+			"img": "/src/assets/apartms/17.jpg",
+			"price": 69,
+			"roomsCount": 3,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Тисовая",
+				"number": 78,
+				"subway": "Крутецкая",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Кофеварка",
+				"Посуда",
+				"Посудомоечная машина",
+				"Золотой унитаз",
+				"Лук",
+				"Сломанный телефон",
+				"Холодильник"
+			],
+			"owner": {
+				"name": "Цыпленок Цыпа",
+				"img": "/src/assets/owners/chicken-little.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 31,
+			"img": "/src/assets/apartms/9.jpg",
+			"price": 74,
+			"roomsCount": 3,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "пр-т Майоровой",
+				"number": 48,
+				"subway": "Смешная",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Микроволновая печь",
+				"Посуда",
+				"Огромный краб",
+				"Веселый сосед",
+				"Птица",
+				"Золотой унитаз",
+				"5мм пыли",
+				"Ванная",
+				"Душевая кабина",
+				"Чайник",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Портал на луну"
+			],
+			"owner": {
+				"name": "Цыпленок Цыпа",
+				"img": "/src/assets/owners/chicken-little.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 32,
+			"img": "/src/assets/apartms/16.jpg",
+			"price": 53,
+			"roomsCount": 3,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "б-р Мулявина",
+				"number": 82,
+				"subway": "Московская",
+				"district": "Октябрьский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посуда",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Веселый сосед",
+				"Ванная",
+				"Чайник",
+				"Игровая приставка",
+				"Портал на луну",
+				"Делориан",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Люк Скайуокер",
+				"img": "/src/assets/owners/luk.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 33,
+			"img": "/src/assets/apartms/8.jpg",
+			"price": 68,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. имени Восканова",
+				"number": 149,
+				"subway": "Крутецкая",
+				"district": "Глухой"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посуда",
+				"Посудомоечная машина",
+				"Золотой унитаз",
+				"Лук",
+				"DVD-проигрыватель",
+				"Портал на луну",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Уолтер Уайт",
+				"img": "/src/assets/owners/walter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 34,
+			"img": "/src/assets/apartms/13.jpg",
+			"price": 70,
+			"roomsCount": 3,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Тисовая",
+				"number": 91,
+				"subway": "Московская",
+				"district": "Приморский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"Душевая кабина",
+				"Перекись водорода",
+				"Лук",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Холодильник",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Сайки Кусуо",
+				"img": "/src/assets/owners/saiki.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 35,
+			"img": "/src/assets/apartms/5.jpg",
+			"price": 86,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 86,
+				"subway": "Позорная",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Микроволновая печь",
+				"Огромный краб",
+				"Веселый сосед",
+				"Птица",
+				"Золотой унитаз",
+				"5мм пыли",
+				"Труп мыши",
+				"Перекись водорода",
+				"Лук",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Портал на луну",
+				"Делориан",
+				"Холодильник",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Гомер Симпсон",
+				"img": "/src/assets/owners/homer.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 36,
+			"img": "/src/assets/apartms/11.jpg",
+			"price": 68,
+			"roomsCount": 4,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. имени Восканова",
+				"number": 103,
+				"subway": "Грушевка",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Кофеварка",
+				"Посуда",
+				"Огромный краб",
+				"Веселый сосед",
+				"Птица",
+				"Труп мыши",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Холодильник",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Оптимус Прайм",
+				"img": "/src/assets/owners/optimus.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 37,
+			"img": "/src/assets/apartms/4.jpg",
+			"price": 83,
+			"roomsCount": 3,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 133,
+				"subway": "Грушевка",
+				"district": "Приморский"
+			},
+			"stuff": [
+				"Посуда",
+				"Огромный краб",
+				"Веселый сосед",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"Труп мыши",
+				"Ванная",
+				"Перекись водорода",
+				"Лук",
+				"DVD-проигрыватель",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Делориан",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Оптимус Прайм",
+				"img": "/src/assets/owners/optimus.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 38,
+			"img": "/src/assets/apartms/19.jpg",
+			"price": 61,
+			"roomsCount": 3,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Тисовая",
+				"number": 99,
+				"subway": "Грушевка",
+				"district": "Октябрьский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Посуда",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Дыра в потолке",
+				"Труп мыши",
+				"Чайник",
+				"Перекись водорода",
+				"Холодильник"
+			],
+			"owner": {
+				"name": "Эрен Йегер",
+				"img": "/src/assets/owners/Eren.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 39,
+			"img": "/src/assets/apartms/7.jpg",
+			"price": 96,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "пр-т Майоровой",
+				"number": 41,
+				"subway": "Московская",
+				"district": "Шабаны"
+			},
+			"stuff": [
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посуда",
+				"Посудомоечная машина",
+				"Веселый сосед",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"Труп мыши",
+				"Ванная",
+				"Чайник",
+				"Лук",
+				"Сломанный телефон",
+				"Делориан",
+				"Холодильник",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Гомер Симпсон",
+				"img": "/src/assets/owners/homer.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 40,
+			"img": "/src/assets/apartms/14.jpg",
+			"price": 77,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 145,
+				"subway": "Грушевка",
+				"district": "Шабаны"
+			},
+			"stuff": [
+				"Кофеварка",
+				"Посуда",
+				"Огромный краб",
+				"Птица",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Душевая кабина",
+				"Чайник",
+				"Лук",
+				"Портал на луну",
+				"Делориан",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Дмитрий Куплинов",
+				"img": "/src/assets/owners/kuplinov.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 41,
+			"img": "/src/assets/apartms/3.jpg",
+			"price": 92,
+			"roomsCount": 5,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. имени Восканова",
+				"number": 100,
+				"subway": "Нью-Йоркская",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Духовка",
+				"Кофеварка",
+				"Посудомоечная машина",
+				"Веселый сосед",
+				"Золотой унитаз",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"Душевая кабина",
+				"Лук",
+				"Портал на луну",
+				"Холодильник",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Уолтер Уайт",
+				"img": "/src/assets/owners/walter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 42,
+			"img": "/src/assets/apartms/7.jpg",
+			"price": 73,
+			"roomsCount": 3,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. имени Восканова",
+				"number": 165,
+				"subway": "Московская",
+				"district": "Шабаны"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посуда",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Веселый сосед",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"Ванная",
+				"Чайник",
+				"Перекись водорода",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Делориан"
+			],
+			"owner": {
+				"name": "Уолтер Уайт",
+				"img": "/src/assets/owners/walter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 43,
+			"img": "/src/assets/apartms/14.jpg",
+			"price": 98,
+			"roomsCount": 4,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Тисовая",
+				"number": 78,
+				"subway": "Смешная",
+				"district": "Приморский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посуда",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Веселый сосед",
+				"Труп мыши",
+				"Ванная",
+				"Чайник",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Холодильник",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Цыпленок Цыпа",
+				"img": "/src/assets/owners/chicken-little.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 44,
+			"img": "/src/assets/apartms/6.jpg",
+			"price": 60,
+			"roomsCount": 4,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 89,
+				"subway": "Смешная",
+				"district": "Октябрьский"
+			},
+			"stuff": [
+				"Духовка",
+				"Микроволновая печь",
+				"Посуда",
+				"Птица",
+				"Золотой унитаз",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"Душевая кабина",
+				"Лук",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Уолтер Уайт",
+				"img": "/src/assets/owners/walter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 45,
+			"img": "/src/assets/apartms/18.jpg",
+			"price": 100,
+			"roomsCount": 3,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "пр-т Майоровой",
+				"number": 51,
+				"subway": "Московская",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Микроволновая печь",
+				"Посуда",
+				"Огромный краб",
+				"Веселый сосед",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"Чайник",
+				"Перекись водорода",
+				"Лук",
+				"DVD-проигрыватель",
+				"Делориан",
+				"Холодильник",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Гарри Поттер",
+				"img": "/src/assets/owners/harryPotter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 46,
+			"img": "/src/assets/apartms/8.jpg",
+			"price": 51,
+			"roomsCount": 5,
+			"bedroomCount": 4,
+			"adress": {
+				"city": "Минск",
+				"street": "пр-т Майоровой",
+				"number": 39,
+				"subway": "Московская",
+				"district": "Приморский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Микроволновая печь",
+				"Огромный краб",
+				"Веселый сосед",
+				"Птица",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Чайник",
+				"Лук",
+				"DVD-проигрыватель",
+				"Сломанный телефон",
+				"Делориан",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Дмитрий Куплинов",
+				"img": "/src/assets/owners/kuplinov.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 47,
+			"img": "/src/assets/apartms/18.jpg",
+			"price": 66,
+			"roomsCount": 4,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 125,
+				"subway": "Позорная",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Микроволновая печь",
+				"Посуда",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Труп мыши",
+				"Перекись водорода",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Делориан",
+				"Холодильник"
+			],
+			"owner": {
+				"name": "Сайки Кусуо",
+				"img": "/src/assets/owners/saiki.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 48,
+			"img": "/src/assets/apartms/3.jpg",
+			"price": 52,
+			"roomsCount": 5,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 22,
+				"subway": "Крутецкая",
+				"district": "Шабаны"
+			},
+			"stuff": [
+				"Духовка",
+				"Посудомоечная машина",
+				"Веселый сосед",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"Ванная",
+				"Душевая кабина",
+				"Чайник",
+				"Игровая приставка",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Стюарт Литтл",
+				"img": "/src/assets/owners/stuart.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 49,
+			"img": "/src/assets/apartms/20.jpg",
+			"price": 84,
+			"roomsCount": 2,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. имени Восканова",
+				"number": 20,
+				"subway": "Московская",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Посудомоечная машина",
+				"Птица",
+				"Золотой унитаз",
+				"5мм пыли",
+				"Игровая приставка",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Гарри Поттер",
+				"img": "/src/assets/owners/harryPotter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 50,
+			"img": "/src/assets/apartms/17.jpg",
+			"price": 64,
+			"roomsCount": 4,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "пр-т Майоровой",
+				"number": 94,
+				"subway": "Крутецкая",
+				"district": "Октябрьский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Микроволновая печь",
+				"Огромный краб",
+				"Птица",
+				"Труп мыши",
+				"Ванная",
+				"Лук",
+				"DVD-проигрыватель",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Холодильник"
+			],
+			"owner": {
+				"name": "Питер Паркер",
+				"img": "/src/assets/owners/peter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 51,
+			"img": "/src/assets/apartms/14.jpg",
+			"price": 60,
+			"roomsCount": 4,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 38,
+				"subway": "Крутецкая",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Посуда",
+				"Огромный краб",
+				"Птица",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"Труп мыши",
+				"Душевая кабина",
+				"Чайник",
+				"Перекись водорода",
+				"Лук",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Делориан",
+				"Холодильник",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Уолтер Уайт",
+				"img": "/src/assets/owners/walter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 52,
+			"img": "/src/assets/apartms/7.jpg",
+			"price": 57,
+			"roomsCount": 3,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "пр-т Майоровой",
+				"number": 111,
+				"subway": "Грушевка",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Духовка",
+				"Кофеварка",
+				"Посуда",
+				"Веселый сосед",
+				"Птица",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Душевая кабина",
+				"Чайник",
+				"Перекись водорода",
+				"Лук",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Портал на луну",
+				"Делориан",
+				"Холодильник",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Оптимус Прайм",
+				"img": "/src/assets/owners/optimus.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 53,
+			"img": "/src/assets/apartms/20.jpg",
+			"price": 82,
+			"roomsCount": 3,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "б-р Мулявина",
+				"number": 55,
+				"subway": "Московская",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Духовка",
+				"Микроволновая печь",
+				"Посуда",
+				"Веселый сосед",
+				"Птица",
+				"Дыра в потолке",
+				"Труп мыши",
+				"Ванная",
+				"Чайник",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Холодильник"
+			],
+			"owner": {
+				"name": "Питер Паркер",
+				"img": "/src/assets/owners/peter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 54,
+			"img": "/src/assets/apartms/16.jpg",
+			"price": 70,
+			"roomsCount": 5,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 72,
+				"subway": "Смешная",
+				"district": "Глухой"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Микроволновая печь",
+				"Посуда",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Веселый сосед",
+				"Птица",
+				"Золотой унитаз",
+				"Ванная",
+				"Чайник",
+				"Перекись водорода",
+				"DVD-проигрыватель",
+				"Портал на луну",
+				"Делориан",
+				"Холодильник",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Уолтер Уайт",
+				"img": "/src/assets/owners/walter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 55,
+			"img": "/src/assets/apartms/19.jpg",
+			"price": 88,
+			"roomsCount": 5,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. имени Восканова",
+				"number": 122,
+				"subway": "Позорная",
+				"district": "Приморский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Кофеварка",
+				"Веселый сосед",
+				"5мм пыли",
+				"Душевая кабина",
+				"Чайник",
+				"Игровая приставка",
+				"Портал на луну",
+				"Делориан",
+				"Холодильник",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Цыпленок Цыпа",
+				"img": "/src/assets/owners/chicken-little.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 56,
+			"img": "/src/assets/apartms/18.jpg",
+			"price": 84,
+			"roomsCount": 5,
+			"bedroomCount": 5,
+			"adress": {
+				"city": "Минск",
+				"street": "б-р Мулявина",
+				"number": 17,
+				"subway": "Позорная",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Духовка",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посудомоечная машина",
+				"Веселый сосед",
+				"Птица",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"Труп мыши",
+				"Ванная",
+				"Душевая кабина",
+				"Чайник",
+				"Перекись водорода",
+				"Лук",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Цыпленок Цыпа",
+				"img": "/src/assets/owners/chicken-little.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 57,
+			"img": "/src/assets/apartms/8.jpg",
+			"price": 99,
+			"roomsCount": 3,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 40,
+				"subway": "Крутецкая",
+				"district": "Глухой"
+			},
+			"stuff": [
+				"Духовка",
+				"Посуда",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Веселый сосед",
+				"Птица",
+				"Золотой унитаз",
+				"Ванная",
+				"Чайник",
+				"Перекись водорода",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Делориан",
+				"Холодильник",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Гомер Симпсон",
+				"img": "/src/assets/owners/homer.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 58,
+			"img": "/src/assets/apartms/10.jpg",
+			"price": 66,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Тисовая",
+				"number": 137,
+				"subway": "Московская",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Кофеварка",
+				"Посуда",
+				"Посудомоечная машина",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Ванная",
+				"Душевая кабина",
+				"Перекись водорода",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Портал на луну",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Дмитрий Куплинов",
+				"img": "/src/assets/owners/kuplinov.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 59,
+			"img": "/src/assets/apartms/7.jpg",
+			"price": 87,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 55,
+				"subway": "Московская",
+				"district": "Октябрьский"
+			},
+			"stuff": [
+				"Духовка",
+				"Кофеварка",
+				"Посуда",
+				"Золотой унитаз",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"Чайник",
+				"Лук",
+				"DVD-проигрыватель",
+				"Сломанный телефон",
+				"Делориан",
+				"Холодильник"
+			],
+			"owner": {
+				"name": "Цыпленок Цыпа",
+				"img": "/src/assets/owners/chicken-little.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 60,
+			"img": "/src/assets/apartms/20.jpg",
+			"price": 54,
+			"roomsCount": 3,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "б-р Мулявина",
+				"number": 33,
+				"subway": "Грушевка",
+				"district": "Глухой"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Веселый сосед",
+				"Птица",
+				"5мм пыли",
+				"Чайник",
+				"Перекись водорода",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Делориан",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Оптимус Прайм",
+				"img": "/src/assets/owners/optimus.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 61,
+			"img": "/src/assets/apartms/4.jpg",
+			"price": 71,
+			"roomsCount": 3,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "б-р Мулявина",
+				"number": 71,
+				"subway": "Нью-Йоркская",
+				"district": "Глухой"
+			},
+			"stuff": [
+				"Духовка",
+				"Посуда",
+				"Огромный краб",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Перекись водорода",
+				"Лук",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Портал на луну"
+			],
+			"owner": {
+				"name": "Уолтер Уайт",
+				"img": "/src/assets/owners/walter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 62,
+			"img": "/src/assets/apartms/12.jpg",
+			"price": 56,
+			"roomsCount": 3,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 107,
+				"subway": "Нью-Йоркская",
+				"district": "Приморский"
+			},
+			"stuff": [
+				"Духовка",
+				"Микроволновая печь",
+				"Посудомоечная машина",
+				"5мм пыли",
+				"Труп мыши",
+				"Перекись водорода",
+				"Лук",
+				"Игровая приставка",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Стюарт Литтл",
+				"img": "/src/assets/owners/stuart.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 63,
+			"img": "/src/assets/apartms/2.jpg",
+			"price": 95,
+			"roomsCount": 4,
+			"bedroomCount": 4,
+			"adress": {
+				"city": "Минск",
+				"street": "б-р Мулявина",
+				"number": 106,
+				"subway": "Нью-Йоркская",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Кофеварка",
+				"Посуда",
+				"Огромный краб",
+				"Веселый сосед",
+				"Дыра в потолке",
+				"Труп мыши",
+				"Ванная",
+				"Лук",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Цыпленок Цыпа",
+				"img": "/src/assets/owners/chicken-little.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 64,
+			"img": "/src/assets/apartms/18.jpg",
+			"price": 90,
+			"roomsCount": 4,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 99,
+				"subway": "Смешная",
+				"district": "Шабаны"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посудомоечная машина",
+				"Веселый сосед",
+				"Птица",
+				"Дыра в потолке",
+				"Чайник",
+				"Перекись водорода",
+				"Лук",
+				"DVD-проигрыватель",
+				"Сломанный телефон",
+				"Холодильник",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Питер Паркер",
+				"img": "/src/assets/owners/peter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 65,
+			"img": "/src/assets/apartms/11.jpg",
+			"price": 67,
+			"roomsCount": 4,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 139,
+				"subway": "Смешная",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Духовка",
+				"Кофеварка",
+				"Птица",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"Труп мыши",
+				"Ванная",
+				"Душевая кабина",
+				"Чайник",
+				"Перекись водорода",
+				"Лук",
+				"Игровая приставка",
+				"Холодильник"
+			],
+			"owner": {
+				"name": "Стюарт Литтл",
+				"img": "/src/assets/owners/stuart.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 66,
+			"img": "/src/assets/apartms/11.jpg",
+			"price": 72,
+			"roomsCount": 4,
+			"bedroomCount": 4,
+			"adress": {
+				"city": "Минск",
+				"street": "б-р Мулявина",
+				"number": 67,
+				"subway": "Нью-Йоркская",
+				"district": "Приморский"
+			},
+			"stuff": [
+				"Микроволновая печь",
+				"Посуда",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Птица",
+				"Дыра в потолке",
+				"Ванная",
+				"Душевая кабина",
+				"Чайник",
+				"Перекись водорода",
+				"Лук",
+				"Сломанный телефон",
+				"Холодильник",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Питер Паркер",
+				"img": "/src/assets/owners/peter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 67,
+			"img": "/src/assets/apartms/17.jpg",
+			"price": 68,
+			"roomsCount": 5,
+			"bedroomCount": 4,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. имени Восканова",
+				"number": 30,
+				"subway": "Московская",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Кофеварка",
+				"Огромный краб",
+				"Веселый сосед",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Портал на луну",
+				"Делориан",
+				"Холодильник"
+			],
+			"owner": {
+				"name": "Оптимус Прайм",
+				"img": "/src/assets/owners/optimus.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 68,
+			"img": "/src/assets/apartms/7.jpg",
+			"price": 87,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "б-р Мулявина",
+				"number": 59,
+				"subway": "Грушевка",
+				"district": "Глухой"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Микроволновая печь",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Веселый сосед",
+				"Птица",
+				"Ванная",
+				"Лук",
+				"DVD-проигрыватель",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Делориан",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Оптимус Прайм",
+				"img": "/src/assets/owners/optimus.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 69,
+			"img": "/src/assets/apartms/16.jpg",
+			"price": 56,
+			"roomsCount": 5,
+			"bedroomCount": 4,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 48,
+				"subway": "Крутецкая",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Микроволновая печь",
+				"Огромный краб",
+				"Птица",
+				"5мм пыли",
+				"Ванная",
+				"Душевая кабина",
+				"Чайник",
+				"Лук",
+				"Делориан",
+				"Холодильник",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Эрен Йегер",
+				"img": "/src/assets/owners/Eren.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 70,
+			"img": "/src/assets/apartms/7.jpg",
+			"price": 99,
+			"roomsCount": 3,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 30,
+				"subway": "Грушевка",
+				"district": "Октябрьский"
+			},
+			"stuff": [
+				"Духовка",
+				"Посуда",
+				"Золотой унитаз",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"Душевая кабина",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Холодильник",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Сайки Кусуо",
+				"img": "/src/assets/owners/saiki.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 71,
+			"img": "/src/assets/apartms/4.jpg",
+			"price": 94,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 22,
+				"subway": "Грушевка",
+				"district": "Приморский"
+			},
+			"stuff": [
+				"Микроволновая печь",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Птица",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"Труп мыши",
+				"Ванная",
+				"Перекись водорода",
+				"Лук",
+				"DVD-проигрыватель",
+				"Делориан",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Питер Паркер",
+				"img": "/src/assets/owners/peter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 72,
+			"img": "/src/assets/apartms/10.jpg",
+			"price": 85,
+			"roomsCount": 3,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "пр-т Майоровой",
+				"number": 132,
+				"subway": "Смешная",
+				"district": "Октябрьский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посуда",
+				"Посудомоечная машина",
+				"Веселый сосед",
+				"Птица",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"Лук",
+				"DVD-проигрыватель",
+				"Сломанный телефон",
+				"Делориан",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Питер Паркер",
+				"img": "/src/assets/owners/peter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 73,
+			"img": "/src/assets/apartms/9.jpg",
+			"price": 49,
+			"roomsCount": 5,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "пр-т Майоровой",
+				"number": 45,
+				"subway": "Позорная",
+				"district": "Глухой"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Огромный краб",
+				"Веселый сосед",
+				"Птица",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"Ванная",
+				"Чайник",
+				"Перекись водорода",
+				"Лук",
+				"DVD-проигрыватель",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Холодильник",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Дмитрий Куплинов",
+				"img": "/src/assets/owners/kuplinov.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 74,
+			"img": "/src/assets/apartms/17.jpg",
+			"price": 78,
+			"roomsCount": 2,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "пр-т Майоровой",
+				"number": 13,
+				"subway": "Московская",
+				"district": "Шабаны"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Микроволновая печь",
+				"Посуда",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Птица",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Труп мыши",
+				"Чайник",
+				"Перекись водорода",
+				"Лук",
+				"DVD-проигрыватель",
+				"Сломанный телефон",
+				"Делориан",
+				"Холодильник",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Оптимус Прайм",
+				"img": "/src/assets/owners/optimus.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 75,
+			"img": "/src/assets/apartms/8.jpg",
+			"price": 85,
+			"roomsCount": 4,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 72,
+				"subway": "Московская",
+				"district": "Шабаны"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Кофеварка",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Веселый сосед",
+				"Птица",
+				"Золотой унитаз",
+				"Труп мыши",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Портал на луну",
+				"Делориан",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Гомер Симпсон",
+				"img": "/src/assets/owners/homer.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 76,
+			"img": "/src/assets/apartms/20.jpg",
+			"price": 56,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 47,
+				"subway": "Московская",
+				"district": "Октябрьский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Кофеварка",
+				"Огромный краб",
+				"Веселый сосед",
+				"Золотой унитаз",
+				"Труп мыши",
+				"Ванная",
+				"Перекись водорода",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Портал на луну",
+				"Делориан",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Сайки Кусуо",
+				"img": "/src/assets/owners/saiki.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 77,
+			"img": "/src/assets/apartms/9.jpg",
+			"price": 47,
+			"roomsCount": 4,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Тисовая",
+				"number": 35,
+				"subway": "Смешная",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Духовка",
+				"Кофеварка",
+				"Веселый сосед",
+				"Птица",
+				"5мм пыли",
+				"Ванная",
+				"Чайник",
+				"Перекись водорода",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Делориан"
+			],
+			"owner": {
+				"name": "Стюарт Литтл",
+				"img": "/src/assets/owners/stuart.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 78,
+			"img": "/src/assets/apartms/16.jpg",
+			"price": 73,
+			"roomsCount": 2,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "пр-т Майоровой",
+				"number": 125,
+				"subway": "Грушевка",
+				"district": "Шабаны"
+			},
+			"stuff": [
+				"Посуда",
+				"Огромный краб",
+				"Веселый сосед",
+				"Золотой унитаз",
+				"Ванная",
+				"Чайник",
+				"Игровая приставка",
+				"Делориан",
+				"Холодильник",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Стюарт Литтл",
+				"img": "/src/assets/owners/stuart.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 79,
+			"img": "/src/assets/apartms/19.jpg",
+			"price": 96,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. имени Восканова",
+				"number": 106,
+				"subway": "Грушевка",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Духовка",
+				"Кофеварка",
+				"Посуда",
+				"Посудомоечная машина",
+				"Птица",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"Чайник",
+				"Перекись водорода",
+				"Лук",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Делориан"
+			],
+			"owner": {
+				"name": "Люк Скайуокер",
+				"img": "/src/assets/owners/luk.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 80,
+			"img": "/src/assets/apartms/10.jpg",
+			"price": 67,
+			"roomsCount": 2,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 58,
+				"subway": "Смешная",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Микроволновая печь",
+				"Посудомоечная машина",
+				"Дыра в потолке",
+				"Труп мыши",
+				"Ванная",
+				"Душевая кабина",
+				"Лук",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Делориан",
+				"Холодильник"
+			],
+			"owner": {
+				"name": "Гомер Симпсон",
+				"img": "/src/assets/owners/homer.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 81,
+			"img": "/src/assets/apartms/6.jpg",
+			"price": 86,
+			"roomsCount": 3,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Тисовая",
+				"number": 90,
+				"subway": "Московская",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посуда",
+				"Посудомоечная машина",
+				"Веселый сосед",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Ванная",
+				"Душевая кабина",
+				"Чайник",
+				"Сломанный телефон",
+				"Портал на луну"
+			],
+			"owner": {
+				"name": "Люк Скайуокер",
+				"img": "/src/assets/owners/luk.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 82,
+			"img": "/src/assets/apartms/11.jpg",
+			"price": 89,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "пр-т Майоровой",
+				"number": 168,
+				"subway": "Крутецкая",
+				"district": "Приморский"
+			},
+			"stuff": [
+				"Духовка",
+				"Микроволновая печь",
+				"Посуда",
+				"Огромный краб",
+				"Веселый сосед",
+				"Птица",
+				"Золотой унитаз",
+				"Душевая кабина",
+				"Лук",
+				"Игровая приставка",
+				"Портал на луну",
+				"Делориан",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Питер Паркер",
+				"img": "/src/assets/owners/peter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 83,
+			"img": "/src/assets/apartms/20.jpg",
+			"price": 84,
+			"roomsCount": 5,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. имени Восканова",
+				"number": 55,
+				"subway": "Позорная",
+				"district": "Приморский"
+			},
+			"stuff": [
+				"Духовка",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посуда",
+				"Огромный краб",
+				"Веселый сосед",
+				"Птица",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"Душевая кабина",
+				"Чайник",
+				"Перекись водорода",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Делориан",
+				"Холодильник"
+			],
+			"owner": {
+				"name": "Оптимус Прайм",
+				"img": "/src/assets/owners/optimus.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 84,
+			"img": "/src/assets/apartms/10.jpg",
+			"price": 54,
+			"roomsCount": 2,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 23,
+				"subway": "Крутецкая",
+				"district": "Приморский"
+			},
+			"stuff": [
+				"Духовка",
+				"Кофеварка",
+				"Огромный краб",
+				"5мм пыли",
+				"Труп мыши",
+				"Чайник",
+				"Перекись водорода",
+				"Портал на луну",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Эрен Йегер",
+				"img": "/src/assets/owners/Eren.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 85,
+			"img": "/src/assets/apartms/5.jpg",
+			"price": 80,
+			"roomsCount": 5,
+			"bedroomCount": 5,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 85,
+				"subway": "Смешная",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Веселый сосед",
+				"Птица",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"Игровая приставка",
+				"Портал на луну",
+				"Делориан"
+			],
+			"owner": {
+				"name": "Гарри Поттер",
+				"img": "/src/assets/owners/harryPotter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 86,
+			"img": "/src/assets/apartms/8.jpg",
+			"price": 55,
+			"roomsCount": 2,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Тисовая",
+				"number": 155,
+				"subway": "Московская",
+				"district": "Шабаны"
+			},
+			"stuff": [
+				"Духовка",
+				"Огромный краб",
+				"Птица",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"Душевая кабина",
+				"Портал на луну",
+				"Холодильник",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Оптимус Прайм",
+				"img": "/src/assets/owners/optimus.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 87,
+			"img": "/src/assets/apartms/5.jpg",
+			"price": 45,
+			"roomsCount": 3,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 53,
+				"subway": "Грушевка",
+				"district": "Шабаны"
+			},
+			"stuff": [
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посуда",
+				"Веселый сосед",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"Ванная",
+				"Перекись водорода",
+				"Лук",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Делориан"
+			],
+			"owner": {
+				"name": "Уолтер Уайт",
+				"img": "/src/assets/owners/walter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 88,
+			"img": "/src/assets/apartms/2.jpg",
+			"price": 70,
+			"roomsCount": 4,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "пр-т Майоровой",
+				"number": 78,
+				"subway": "Московская",
+				"district": "Октябрьский"
+			},
+			"stuff": [
+				"Микроволновая печь",
+				"Посуда",
+				"Огромный краб",
+				"Птица",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Труп мыши",
+				"Душевая кабина",
+				"DVD-проигрыватель",
+				"Сломанный телефон",
+				"Холодильник",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Дмитрий Куплинов",
+				"img": "/src/assets/owners/kuplinov.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 89,
+			"img": "/src/assets/apartms/2.jpg",
+			"price": 74,
+			"roomsCount": 3,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 27,
+				"subway": "Позорная",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Посудомоечная машина",
+				"Веселый сосед",
+				"Золотой унитаз",
+				"Перекись водорода",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Холодильник"
+			],
+			"owner": {
+				"name": "Гарри Поттер",
+				"img": "/src/assets/owners/harryPotter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 90,
+			"img": "/src/assets/apartms/19.jpg",
+			"price": 51,
+			"roomsCount": 3,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "б-р Мулявина",
+				"number": 133,
+				"subway": "Нью-Йоркская",
+				"district": "Глухой"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Огромный краб",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"Душевая кабина",
+				"Чайник",
+				"Лук",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Холодильник",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Люк Скайуокер",
+				"img": "/src/assets/owners/luk.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 91,
+			"img": "/src/assets/apartms/19.jpg",
+			"price": 87,
+			"roomsCount": 2,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Тисовая",
+				"number": 95,
+				"subway": "Нью-Йоркская",
+				"district": "Глухой"
+			},
+			"stuff": [
+				"Огромный краб",
+				"5мм пыли",
+				"Труп мыши",
+				"Ванная",
+				"Душевая кабина",
+				"Перекись водорода",
+				"Лук",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Портал на луну",
+				"Холодильник",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Люк Скайуокер",
+				"img": "/src/assets/owners/luk.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 92,
+			"img": "/src/assets/apartms/5.jpg",
+			"price": 45,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. имени Восканова",
+				"number": 38,
+				"subway": "Смешная",
+				"district": "Глухой"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Посуда",
+				"Посудомоечная машина",
+				"Птица",
+				"Золотой унитаз",
+				"Труп мыши",
+				"Ванная",
+				"Душевая кабина",
+				"Перекись водорода",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Портал на луну",
+				"Холодильник",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Эрен Йегер",
+				"img": "/src/assets/owners/Eren.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 93,
+			"img": "/src/assets/apartms/11.jpg",
+			"price": 97,
+			"roomsCount": 2,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Тисовая",
+				"number": 66,
+				"subway": "Позорная",
+				"district": "Октябрьский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Микроволновая печь",
+				"Посуда",
+				"Посудомоечная машина",
+				"Веселый сосед",
+				"Дыра в потолке",
+				"Перекись водорода",
+				"Лук",
+				"DVD-проигрыватель",
+				"Портал на луну",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Эрен Йегер",
+				"img": "/src/assets/owners/Eren.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 94,
+			"img": "/src/assets/apartms/11.jpg",
+			"price": 64,
+			"roomsCount": 5,
+			"bedroomCount": 4,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Тисовая",
+				"number": 93,
+				"subway": "Грушевка",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Микроволновая печь",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Птица",
+				"Золотой унитаз",
+				"5мм пыли",
+				"Труп мыши",
+				"Душевая кабина",
+				"Чайник",
+				"Игровая приставка",
+				"Делориан",
+				"Холодильник",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Сайки Кусуо",
+				"img": "/src/assets/owners/saiki.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 95,
+			"img": "/src/assets/apartms/5.jpg",
+			"price": 92,
+			"roomsCount": 3,
+			"bedroomCount": 3,
+			"adress": {
+				"city": "Минск",
+				"street": "пр-т Майоровой",
+				"number": 158,
+				"subway": "Грушевка",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Огромный краб",
+				"Дыра в потолке",
+				"5мм пыли",
+				"Душевая кабина",
+				"Чайник",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Делориан",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Гомер Симпсон",
+				"img": "/src/assets/owners/homer.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 96,
+			"img": "/src/assets/apartms/17.jpg",
+			"price": 71,
+			"roomsCount": 2,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "ул. Пушкина",
+				"number": 135,
+				"subway": "Грушевка",
+				"district": "Приморский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Микроволновая печь",
+				"Посуда",
+				"Золотой унитаз",
+				"Дыра в потолке",
+				"Труп мыши",
+				"Ванная",
+				"Душевая кабина",
+				"Чайник",
+				"Лук",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Делориан",
+				"Холодильник",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Цыпленок Цыпа",
+				"img": "/src/assets/owners/chicken-little.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 97,
+			"img": "/src/assets/apartms/9.jpg",
+			"price": 100,
+			"roomsCount": 4,
+			"bedroomCount": 4,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 27,
+				"subway": "Смешная",
+				"district": "Шабаны"
+			},
+			"stuff": [
+				"Духовка",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Огромный краб",
+				"Птица",
+				"5мм пыли",
+				"Труп мыши",
+				"Перекись водорода",
+				"DVD-проигрыватель",
+				"Игровая приставка",
+				"Сломанный телефон",
+				"Делориан",
+				"Винный погреб"
+			],
+			"owner": {
+				"name": "Оптимус Прайм",
+				"img": "/src/assets/owners/optimus.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 98,
+			"img": "/src/assets/apartms/8.jpg",
+			"price": 49,
+			"roomsCount": 2,
+			"bedroomCount": 2,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 78,
+				"subway": "Позорная",
+				"district": "Заморский"
+			},
+			"stuff": [
+				"Газовая плита",
+				"Духовка",
+				"Кофеварка",
+				"Микроволновая печь",
+				"Веселый сосед",
+				"Птица",
+				"Золотой унитаз",
+				"5мм пыли",
+				"Чайник",
+				"Лук",
+				"Сломанный телефон",
+				"Портал на луну",
+				"Винный погреб",
+				"Летучая мышь"
+			],
+			"owner": {
+				"name": "Сайки Кусуо",
+				"img": "/src/assets/owners/saiki.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 99,
+			"img": "/src/assets/apartms/14.jpg",
+			"price": 74,
+			"roomsCount": 1,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "Бейкер Стрит",
+				"number": 72,
+				"subway": "Крутецкая",
+				"district": "Далеко"
+			},
+			"stuff": [
+				"Духовка",
+				"Кофеварка",
+				"Огромный краб",
+				"Веселый сосед",
+				"Птица",
+				"Чайник",
+				"Перекись водорода",
+				"DVD-проигрыватель",
+				"Сломанный телефон",
+				"Портал на луну"
+			],
+			"owner": {
+				"name": "Уолтер Уайт",
+				"img": "/src/assets/owners/walter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		},
+		{
+			"id": 100,
+			"img": "/src/assets/apartms/17.jpg",
+			"price": 90,
+			"roomsCount": 4,
+			"bedroomCount": 1,
+			"adress": {
+				"city": "Минск",
+				"street": "пр-т Майоровой",
+				"number": 136,
+				"subway": "Позорная",
+				"district": "Глухой"
+			},
+			"stuff": [
+				"Посуда",
+				"Посудомоечная машина",
+				"Огромный краб",
+				"Труп мыши",
+				"Ванная",
+				"Перекись водорода",
+				"DVD-проигрыватель"
+			],
+			"owner": {
+				"name": "Питер Паркер",
+				"img": "/src/assets/owners/peter.jpg",
+				"phoneNumber": "+123 123 456 12 64",
+				"links": {
+					"website": "https://my-website.com",
+					"vk": "https://vk.com",
+					"telegram": "https://web.telegram.com",
+					"email": "sobaka@dryannayz.com"
+				}
+			}
+		}
 	]
 }

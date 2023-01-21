@@ -1,6 +1,6 @@
 import { Route, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
-import { Authorization, Layout } from './components';
-import { News, Error, Post, singlePostLoader, Contacts, newsLoader, AuthPage } from './pages';
+import { Authorization, Layout, Registration } from './components';
+import { News, Error, Post, singlePostLoader, Contacts, newsLoader, AuthPage, CatalogPage } from './pages';
 
 export const router = createBrowserRouter(createRoutesFromElements(
 	<>
@@ -17,12 +17,13 @@ export const router = createBrowserRouter(createRoutesFromElements(
 				loader={singlePostLoader}
 				errorElement={<Error />}
 			/>
+			<Route path='catalog' element={<CatalogPage />} />
 			<Route path='contacts' element={<Contacts />} />
 			<Route path=':smth' element={<Error />} />
 		</Route>
 		<Route path='/log/' element={<AuthPage />}>
 			<Route path='auth' element={<Authorization />} />
-			<Route path='reg' element={<h1>Регистрация</h1>} />
+			<Route path='reg' element={<Registration />} />
 		</Route>
 	</>
 ))

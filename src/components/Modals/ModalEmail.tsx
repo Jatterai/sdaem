@@ -1,4 +1,4 @@
-import styles from './ModalEmail.module.scss';
+import styles from './Modal.module.scss';
 import { TModalProps } from '../../types';
 
 

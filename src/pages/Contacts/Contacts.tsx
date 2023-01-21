@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
+import { useSelector } from 'react-redux';
 
 
 const schema = yup.object().shape({
@@ -15,6 +16,7 @@ const schema = yup.object().shape({
 
 export const Contacts = () => {
 	const [isOpen, setIsOpen] = useState(false);
+	const { email } = useSelector(state => state.auth.userData);
 	const onSubmit = () => {
 		setIsOpen(true);
 		resetField('message')
@@ -77,7 +79,6 @@ export const Contacts = () => {
 									<UserIcon />
 									<input
 										{...register('name')}
-
 										placeholder='Введите'
 									/>
 								</div>
@@ -89,6 +90,7 @@ export const Contacts = () => {
 									<input
 										{...register('email')}
 										placeholder='Введите'
+										defaultValue={email}
 									/>
 								</div>
 							</label>

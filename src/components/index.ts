@@ -8,5 +8,7 @@ export { Layout } from './Layout/Layout';
 export { Search } from './Search/Search';
 export { PostBody } from './PostBody/PostBody';
 export { NewsCards } from './NewsCards/NewsCards';
-export { ModalEmail } from './ModalEmail/ModalEmail';
+export { ModalEmail } from './Modals/ModalEmail';
 export { Authorization } from './Authorization/Authorization';
+export { Registration } from './Registration/Registration';
+export { Paginate } from './Paginate/Paginate';

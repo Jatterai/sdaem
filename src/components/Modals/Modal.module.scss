@@ -33,7 +33,7 @@
 		font-size: calc(25 / 16 * 1rem);
 		line-height: calc(30 / 25);
 		text-align: center;
-		margin-bottom: (20/25 * 1em);
+		margin-bottom: calc(20 / 25 * 1em);
 	}
 	p {
 		font-weight: 400;
@@ -44,6 +44,7 @@
 		margin-bottom: 30px;
 	}
 	button {
+		cursor: pointer;
 		font-weight: 700;
 		font-size: 1rem;
 		line-height: 150%;
@@ -55,6 +56,10 @@
 		background: #ffd54f;
 		border-radius: 33px;
 		padding: 12px 24px;
+		transition: 200ms;
+		&:hover {
+			background: #ffc14f;
+		}
 	}
 }
 

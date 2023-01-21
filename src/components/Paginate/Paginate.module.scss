@@ -1,0 +1,24 @@
+.paginateContainer {
+	display: flex;
+	font-size: 18px;
+	line-height: calc(22 / 18);
+	color: #686868;
+	gap: 3px;
+	.li {
+		cursor: pointer;
+		&__active {
+		}
+	}
+	.link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: calc(22 / 18) + em;
+		aspect-ratio: 1 / 1;
+		&__active {
+			color: black;
+			font-weight: 700;
+			border-bottom: 2px solid #ffd54f;
+		}
+	}
+}

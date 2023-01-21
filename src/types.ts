@@ -15,6 +15,10 @@ export type TTitle = {
 	children: React.ReactNode
 }
 
+export type TIcon = {
+	className?: string,
+}
+
 export type TSearch = {
 	value?: string,
 	onChange?: (param: object) => void,
@@ -48,4 +52,49 @@ export type TBreadcrumbProps = {
 
 export type TModalProps = {
 	onClick: () => void;
+}
+
+export type TOwner = {
+	"name": string,
+	"img": string,
+	"phoneNumber": string,
+	"links": {
+		"website": string,
+		"vk": string,
+		"telegram": string,
+		"email": string
+	}
+}
+
+export type TOwnerCard = {
+	owner: TOwner,
+	isOpen: boolean,
+	setIsOpen: (isOpen: boolean) => void,
+}
+
+export type TApartment = {
+	"id": 1,
+	"img": string,
+	"price": number,
+	"roomsCount": number,
+	"bedroomCount": number,
+	"adress": {
+		"city": string,
+		"street": string,
+		"number": number,
+		"subway": string,
+		"district": string
+	},
+	"stuff": string[],
+	"owner": TOwner,
+}
+
+export type TCardProps = {
+	className?: string,
+	item: TApartment,
+}
+
+export type TCalalogSlice = {
+	catalogItems: TApartment[] | any[],
+	isLoading: boolean
 }

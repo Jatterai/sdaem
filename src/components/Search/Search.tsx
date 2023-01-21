@@ -3,7 +3,6 @@ import { TSearch } from '../../types';
 import { Form } from 'react-router-dom';
 
 export const Search = (props: TSearch) => {
-	console.log(props);
 	return (
 		<Form
 			action='/news'
