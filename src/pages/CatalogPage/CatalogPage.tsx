@@ -1,30 +1,33 @@
-import { Breadcrumps, Container, Paginate, Title } from '../../components';
+import { Breadcrumps, Container, Organization, Paginate, Title } from '../../components';
 import styles from './CatalogPage.module.scss';
 import { ApartmentCard } from '../../components/ApartmentCard/ApartmentCard';
-import { useSelector } from 'react-redux';
-import ReactPaginate from 'react-paginate';
-import { useState } from 'react';
-import { FacebookIcon, TelegramIcon, ViberIcon, VkIcon, WhatsappIcon } from '../../components/icons';
+import { useDispatch, useSelector } from 'react-redux';
+import { FacebookIcon, PinIcon, TelegramIcon, ViberIcon, VkIcon, WhatsappIcon } from '../../components/icons';
+import { usePaginate } from '../../hooks/usePaginate';
+import { useEffect, useState } from 'react';
+import { sortItems } from '../../app/features/catalog/catalogSlice';
 
 
 export const CatalogPage = () => {
+	const [sortingParam, setSortingParam] = useState('');
+	const [styleParam, setSyleParam] = useState('cards')
 	const { catalogItems, isLoading } = useSelector(state => state.catalog);
-	const [itemOffset, setItemOffset] = useState(0);
+	const dispatch = useDispatch();
+	useEffect(() => {
+		dispatch(sortItems(sortingParam));
+	}, [sortingParam])
 
-	const itemsPerPage = 6;
-	const endOffset = itemOffset + itemsPerPage;
-	const currentItems = catalogItems.slice(itemOffset, endOffset);
-	const handlePageClick = (event) => {
-		const newOffset = (event.selected * itemsPerPage) % catalogItems.length;
-		setItemOffset(newOffset);
-		window.scrollTo(0, 0)
-	};
+	const {
+		currentItems,
+		handlePageClick,
+		pageCount
+	} = usePaginate(catalogItems, 6)
 
 	const aparmentItems = currentItems.map(item => (
 		<ApartmentCard
 			key={item.id}
 			item={item}
-			className={styles.card}
+			className={styleParam === 'cards' ? '' : "line"}
 		/>))
 
 	const wordAffix = /[234]$/.test(catalogItems.length.toString()) ? "а" :
@@ -43,6 +46,9 @@ export const CatalogPage = () => {
 					<Title addClass={styles.title}>Аренда квартир на сутки в Минске</Title>
 				</Container>
 			</article>
+			<div className={styles.forms}>
+				<Organization setParam={setSortingParam} setStyle={setSyleParam} />
+			</div>
 			<article className={styles.body}>
 				{
 					isLoading ?
@@ -51,11 +57,11 @@ export const CatalogPage = () => {
 							<p className={styles.count}>
 								Найдено {catalogItems.length} результат{wordAffix}
 							</p>
-							<div className={styles.cards}>
+							<div className={styles[styleParam]}>
 								{aparmentItems}
 							</div>
 							<div className={styles.paginate}>
-								<Paginate handlePageClick={handlePageClick} pageCount={Math.ceil(catalogItems.length / itemsPerPage)} />
+								<Paginate handlePageClick={handlePageClick} pageCount={pageCount} />
 								<div className={styles.share}>
 									<span>Поделиться</span>
 									<ul>
@@ -70,7 +76,17 @@ export const CatalogPage = () => {
 						</Container>
 				}
 			</article>
-
+			<div className={styles.showOnMap + ' bg-with-map'}>
+				<Container className={styles.showOnMap_container}>
+					<h3 className={styles.title}>Показать найденные квартиры на карте</h3>
+					<p className={styles.text}>Ищите новостройки рядом с работой,
+						парком или родственниками</p>
+					<button className={styles.button}>
+						<PinIcon className={styles.icon} />
+						Открыть карту
+					</button>
+				</Container>
+			</div>
 		</section>
 	)
 }

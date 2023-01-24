@@ -20,8 +20,8 @@ export const ApartmentCard = ({ item, className }: TCardProps) => {
 	}
 
 	return (
-		<article className={`${styles.card} ${className}`} onClick={handleClick} onMouseLeave={() => setIsOpen(false)}>
-			<div className={styles.images}>
+		<article className={`${styles.card} ${styles[className]}`} onClick={handleClick} onMouseLeave={() => setIsOpen(false)}>
+			<div className={styles.images + ' ' + styles[className]}>
 				<img src={item.img} alt="apartment" className={styles.img} />
 			</div>
 			<div className={styles.info}>
@@ -54,9 +54,10 @@ export const ApartmentCard = ({ item, className }: TCardProps) => {
 				<p className={styles.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores laudantium magni totam saepe eligendi dignissimos deleniti unde, mollitia fugiat qui nam at temporibus vero consequatur optio adipisci soluta nesciunt, in, ex tempore placeat provident rem alias magnam. Natus, soluta. Vel eaque officiis accusamus, deserunt tempore praesentium rem quis impedit nemo porro iste cupiditate dolores assumenda corporis consequuntur fugit id. Illum rem officia nulla voluptate ipsa dolor eos fuga itaque quibusdam, ullam quasi officiis autem iste ipsum veniam recusandae neque natus nisi, reiciendis impedit facilis assumenda ducimus quo? Molestias, quia impedit! Autem id soluta ex nostrum cum debitis eaque, magnam eius!</p>
 				<div className={styles.footer}>
 					<div
-						className={styles.favorite + (item.isFavorite ? ' ' + styles.on : '')}
+						className={styles.favorite + (item.isFavorite ? ' ' + styles.on : '') + ' ' + styles[className]}
 						onClick={() => dispatch(toggleFavorite(item.id))}
 					>
+						<span>В закладки</span>
 						<StarIcon className={styles.icon} />
 					</div>
 					<div className={styles.contacts} id='contacts' ref={ref}>

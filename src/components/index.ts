@@ -12,3 +12,4 @@ export { ModalEmail } from './Modals/ModalEmail';
 export { Authorization } from './Authorization/Authorization';
 export { Registration } from './Registration/Registration';
 export { Paginate } from './Paginate/Paginate';
+export { Organization } from './Organization/Organization';
