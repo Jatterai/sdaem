@@ -1,6 +1,13 @@
 .container {
 	display: flex;
 	padding-block: 20px 12px;
+	@media (max-width: 750px) {
+		justify-content: space-between;
+	}
+	@media (max-width: 500px) {
+		flex-direction: column;
+		gap: 20px;
+	}
 }
 .item {
 	cursor: pointer;
@@ -25,37 +32,34 @@
 		display: flex;
 		align-items: center;
 	}
+	@media (max-width: 500px) {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
 }
-.sorting {
-	position: relative;
-	width: 232px;
+
+.sort {
+	min-width: 232px;
 	margin-right: auto;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	outline: none;
-	padding-left: 37px;
-	background: url("../../assets/icons/arrowdownsvg.svg") calc(100% - 15px) 50%/ 10px auto no-repeat,
-		url("../../assets/icons/sort.svg") 11px 50%/ 15px auto no-repeat;
-	&::-ms-expand {
-		display: none;
+	gap: 11px;
+	&::before {
+		content: "";
+		width: 15px;
+		aspect-ratio: 1 / 1;
+		display: block;
+		background: url("../../assets/icons/sort.svg") 0 0 / cover no-repeat;
 	}
-	option {
-		font-family: inherit;
-		font-size: 14px;
-		line-height: calc(17 / 14);
-		color: #1e2123;
-		font-weight: 500;
-		padding: 10px 15px;
-		&:hover {
-			background: #f8f8f8;
-		}
-	}
+}
+.option {
 }
 
 .radios {
 	display: flex;
 	margin-right: 60px;
+	@media (max-width: 850px) {
+		display: none;
+	}
 	.radio {
 		transition: 200ms;
 		.icon {

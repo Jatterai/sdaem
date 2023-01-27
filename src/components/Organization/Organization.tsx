@@ -1,7 +1,8 @@
 import React from "react";
 import { Container } from "../Container/Container";
 import { LinesIcon, PlatesIcon, PinIcon, XexexeIcon } from "../icons";
-import styles from './Organization.module.scss'
+import styles from './Organization.module.scss';
+import { Select } from "../Select/Select";
 
 
 export const Organization = ({ setParam, setStyle }) => {
@@ -17,17 +18,17 @@ export const Organization = ({ setParam, setStyle }) => {
 			onSubmit={(e) => { e.preventDefault() }}
 		>
 			<Container className={styles.container}>
-				<select
+				<Select
 					name='order'
-					id='order'
-					className={styles.sorting + ' ' + styles.item}
+					className={styles.sort}
 					onChange={changeSortParam}
-				>
-					<option value={'default'} selected>По умолчанию</option>
-					<option value={'price'}>Цена</option>
-					<option value={'rooms'}>Кол-во комнат</option>
-					<option value={'owner'}>Продавец</option>
-				</select>
+					options={[
+						{ value: 'default', label: 'По умолчанию', defaultChecked: true },
+						{ value: 'price', label: 'Цена' },
+						{ value: 'rooms', label: 'Количество комнат' },
+						{ value: 'owner', label: 'Продавец' },
+					]}
+				/>
 				<div className={styles.radios}>
 					<label className={styles.radio + ' ' + styles.item}>
 						<input type="radio" name='style' value='lines' onInput={changeStyle} />
@@ -37,7 +38,7 @@ export const Organization = ({ setParam, setStyle }) => {
 						</span>
 					</label>
 					<label className={styles.radio + ' ' + styles.item}>
-						<input type="radio" name="style" value={'cards'} onInput={changeStyle} />
+						<input type="radio" name="style" value={'cards'} onInput={changeStyle} defaultChecked={true} />
 						<span>
 							<PlatesIcon className={styles.icon} />
 							<span>Плитки</span>

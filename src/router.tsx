@@ -1,11 +1,11 @@
 import { Route, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import { Authorization, Layout, Registration } from './components';
-import { News, Error, Post, singlePostLoader, Contacts, newsLoader, AuthPage, CatalogPage } from './pages';
+import { News, Error, Post, singlePostLoader, Contacts, newsLoader, AuthPage, CatalogPage, MainPage } from './pages';
 
 export const router = createBrowserRouter(createRoutesFromElements(
 	<>
 		<Route path='/' element={<Layout />}>
-			<Route path='' element={<h1>lol</h1>} />
+			<Route path='' element={<MainPage />} />
 			<Route path='news'
 				element={<News itemsPerPage={9} />}
 				loader={newsLoader}

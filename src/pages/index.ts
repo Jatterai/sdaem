@@ -5,3 +5,4 @@ export { Contacts } from './Contacts/Contacts';
 export { AuthPage } from './AuthPage/AuthPage';
 export { CatalogPage } from './CatalogPage/CatalogPage';
 export { OwnerInfoCard } from '../components/OwnerInfoCard/OwnerInfoCard';
+export { MainPage } from './MainPage/MainPage';

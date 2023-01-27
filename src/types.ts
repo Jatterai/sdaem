@@ -10,6 +10,35 @@ interface HeaderListItem {
 
 export type HeaderList = HeaderListItem[];
 
+export type TUsual = {
+	className?: string,
+	children: React.ReactNode,
+}
+
+export interface TOption {
+	className?: string,
+	label: string,
+	id?: number | string,
+	value: string | number,
+	name: string,
+	onChange: (e: React.ChangeEventHandler<HTMLInputElement>) => void;
+	onReset: (e: React.FormEventHandler<HTMLInputElement>) => void;
+}
+
+interface Toption { id?: number, value: string | number, label: string, defaultChecked?: boolean }
+
+export interface TSelect {
+	className?: string,
+	options: Toption[],
+	name: string,
+	placeholder?: string,
+	optionsBoxClassName?: string,
+	optionClassName?: string,
+	onChange?: (e: React.ChangeEventHandler<HTMLInputElement>) => void;
+}
+
+
+
 export type TTitle = {
 	addClass?: string,
 	children: React.ReactNode

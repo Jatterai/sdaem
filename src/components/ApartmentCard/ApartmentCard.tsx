@@ -25,7 +25,7 @@ export const ApartmentCard = ({ item, className }: TCardProps) => {
 				<img src={item.img} alt="apartment" className={styles.img} />
 			</div>
 			<div className={styles.info}>
-				<div className={styles.main}>
+				<div className={styles.main + ' ' + styles[className]}>
 					<div className={styles.price}>
 						<p className={styles.num}>{item.price.toFixed(2)} BYN</p>
 						<p className={styles.period}>за сутки</p>

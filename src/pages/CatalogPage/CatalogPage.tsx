@@ -1,4 +1,4 @@
-import { Breadcrumps, Container, Organization, Paginate, Title } from '../../components';
+import { Breadcrumps, Container, Organization, Paginate, SortingForm, Title } from '../../components';
 import styles from './CatalogPage.module.scss';
 import { ApartmentCard } from '../../components/ApartmentCard/ApartmentCard';
 import { useDispatch, useSelector } from 'react-redux';
@@ -13,6 +13,7 @@ export const CatalogPage = () => {
 	const [styleParam, setSyleParam] = useState('cards')
 	const { catalogItems, isLoading } = useSelector(state => state.catalog);
 	const dispatch = useDispatch();
+
 	useEffect(() => {
 		dispatch(sortItems(sortingParam));
 	}, [sortingParam])
@@ -47,6 +48,7 @@ export const CatalogPage = () => {
 				</Container>
 			</article>
 			<div className={styles.forms}>
+				<SortingForm />
 				<Organization setParam={setSortingParam} setStyle={setSyleParam} />
 			</div>
 			<article className={styles.body}>
@@ -65,11 +67,11 @@ export const CatalogPage = () => {
 								<div className={styles.share}>
 									<span>Поделиться</span>
 									<ul>
-										<li><VkIcon /></li>
-										<li><FacebookIcon /></li>
-										<li><ViberIcon /></li>
-										<li><TelegramIcon /></li>
-										<li><WhatsappIcon /></li>
+										<li><a href='http://wikipedia.org' target={'_blank'}><VkIcon /></a></li>
+										<li><a href='http://wikipedia.org' target={'_blank'}><FacebookIcon /></a></li>
+										<li><a href='http://wikipedia.org' target={'_blank'}><ViberIcon /></a></li>
+										<li><a href='http://wikipedia.org' target={'_blank'}><TelegramIcon /></a></li>
+										<li><a href='http://wikipedia.org' target={'_blank'}><WhatsappIcon /></a></li>
 									</ul>
 								</div>
 							</div>

@@ -1,0 +1,55 @@
+.select {
+	position: relative;
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+	font-size: calc(14 / 17 * 1rem);
+	line-height: calc(17 / 14);
+	color: #1e2123;
+	label,
+	input {
+		color: inherit;
+		font-weight: inherit;
+		font-family: inherit;
+		font-size: inherit;
+		line-height: inherit;
+	}
+	background: #f8f8f8;
+	border-radius: 20px;
+	padding: 10px 12px;
+	position: relative;
+	cursor: pointer;
+
+	&::after {
+		content: "";
+		position: relative;
+		margin-left: 5px;
+		width: 8px;
+		aspect-ratio: 1 / 1;
+		display: block;
+		border-top: 2px solid #664ef9;
+		border-right: 2px solid #664ef9;
+		transition: 200ms;
+		transform: translateY(-10%) rotate(135deg);
+		z-index: 2;
+	}
+}
+
+.label {
+	flex: 1 0 auto;
+}
+
+.radios {
+	left: 0;
+	bottom: -10px;
+	transform: translateY(100%);
+}
+
+.select.active {
+	&:after {
+		transform: translateY(40%) rotate(315deg);
+	}
+	.radios {
+		display: block;
+	}
+}
