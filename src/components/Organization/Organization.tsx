@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "../Container/Container";
-import { LinesIcon, PlatesIcon, PinIcon, XexexeIcon } from "../icons";
+import { LinesIcon, PlatesIcon, PinIcon } from "../icons";
 import styles from './Organization.module.scss';
 import { Select } from "../Select/Select";
 
@@ -20,10 +20,10 @@ export const Organization = ({ setParam, setStyle }) => {
 			<Container className={styles.container}>
 				<Select
 					name='order'
-					className={styles.sort}
+					className={styles.rooms}
 					onChange={changeSortParam}
 					options={[
-						{ value: 'default', label: 'По умолчанию', defaultChecked: true },
+						{ value: 'default', label: 'По умолчанию', checked: true },
 						{ value: 'price', label: 'Цена' },
 						{ value: 'rooms', label: 'Количество комнат' },
 						{ value: 'owner', label: 'Продавец' },

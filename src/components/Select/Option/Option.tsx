@@ -1,7 +1,12 @@
 import styles from './Option.module.scss';
 import { TOption } from '../../../types';
+import { useEffect, useRef } from 'react';
 
-export const Option = ({ className, label, id, value, name, onChange, onReset }: TOption) => {
+export const Option = ({ className, label, id, value, name, defaultChecked, setLabel, mainLabel }: TOption) => {
+	const ref = useRef();
+	useEffect(() => {
+		if (label === mainLabel && !ref.current.checked) setLabel('');
+	});
 	return (
 		<label className={styles.radio + ' ' + className} >
 			<input
@@ -10,7 +15,9 @@ export const Option = ({ className, label, id, value, name, onChange, onReset }:
 				value={value}
 				id={id?.toString()}
 				onClick={e => e.stopPropagation()}
-				onChange={onChange}
+				defaultChecked={defaultChecked}
+				ref={ref}
+
 			/>
 			<span>{label}</span>
 		</label>

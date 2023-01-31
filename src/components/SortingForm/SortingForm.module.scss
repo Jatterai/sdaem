@@ -10,8 +10,7 @@
 	input,
 	button,
 	label,
-	select,
-	option {
+	select {
 		font-size: inherit;
 		font-family: inherit;
 		line-height: inherit;
@@ -31,8 +30,13 @@
 	padding: 0 41px;
 }
 
-.rooms {
+.sort {
+	background: #f8f8f8;
 	width: 150px;
+	transition: 200ms;
+	&__active {
+		box-shadow: 0 0 0 1.5px rgba(78, 100, 249, 0.8);
+	}
 }
 .form {
 	display: flex;
@@ -55,6 +59,9 @@
 
 	.input_number {
 		width: 100px;
+		&:focus {
+			box-shadow: 0 0 0 1.5px rgba(78, 100, 249, 0.8);
+		}
 	}
 
 	.label {

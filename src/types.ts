@@ -15,19 +15,24 @@ export type TUsual = {
 	children: React.ReactNode,
 }
 
+export interface TOptions extends TUsual {
+	onChange: (e: React.ChangeEventHandler<HTMLInputElement>) => void;
+}
+
 export interface TOption {
 	className?: string,
 	label: string,
 	id?: number | string,
 	value: string | number,
 	name: string,
-	onChange: (e: React.ChangeEventHandler<HTMLInputElement>) => void;
-	onReset: (e: React.FormEventHandler<HTMLInputElement>) => void;
+	defaultChecked: boolean,
+
 }
 
-interface Toption { id?: number, value: string | number, label: string, defaultChecked?: boolean }
+interface Toption { id?: number, value: string | number, label: string, checked?: boolean }
 
 export interface TSelect {
+	activeClassName?: string,
 	className?: string,
 	options: Toption[],
 	name: string,

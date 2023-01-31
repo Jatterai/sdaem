@@ -3,9 +3,10 @@ import styles from './Select.module.scss';
 import { Option } from './Option/Option';
 import { Options } from './Options/Options';
 import { TSelect } from '../../types';
-
+// this comment!!
 export const Select = ({
 	className,
+	activeClassName,
 	options,
 	name,
 	placeholder,
@@ -13,16 +14,14 @@ export const Select = ({
 	optionClassName,
 	onChange
 }: TSelect) => {
-	const initValue = options.find(e => e.defaultChecked)?.label || placeholder || 'Выберите';
-	const [label, setLabel] = useState(initValue);
-
+	const [label, setLabel] = useState(options.find(el => el.checked)?.label || '');
 	const [isOpen, setIsOpen] = useState();
-	const activeClass = isOpen ? ` ${styles.active}` : '';
+	const activeClass = isOpen ? ` ${styles.active} ${activeClassName}` : '';
 
 	const handleChange = (e) => {
 		if (onChange) onChange(e);
-		const newSelected = options.find(el => el.value.toString() === e.target.value).label;
-		setLabel(newSelected);
+		const newLabel = e.target.closest('label').textContent;
+		setLabel(newLabel)
 	}
 
 	return (
@@ -30,19 +29,24 @@ export const Select = ({
 			className={styles.select + ' ' + activeClass + ' ' + className}
 			onClick={() => setIsOpen(p => !p)}
 		>
-			<span className={styles.label}>{label || 'Выберите'}</span>
+			<span className={styles.label}>{label || placeholder || 'Выберите'}</span>
 
-			<Options className={styles.radios + ' ' + optionsBoxClassName} onMouseLeave={() => setIsOpen(false)}>
+			<Options
+				className={styles.radios + ' ' + optionsBoxClassName}
+				onMouseLeave={() => setIsOpen(false)}
+				onChange={handleChange}
+			>
 				{
 					options.map((el, i) => (
 						<Option
 							name={name}
 							value={el.value}
-							id={el.i}
+							id={'no' + i}
 							label={el.label}
-							onChange={handleChange}
 							className={optionClassName}
-							onReset={() => { console.log('reset'); setLabel('false') }}
+							defaultChecked={!!el.checked}
+							setLabel={setLabel}
+							mainLabel={label}
 						/>
 					))
 				}

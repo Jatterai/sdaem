@@ -1,10 +1,13 @@
 
+import { Container } from '../../components';
 import styles from './MainPage.module.scss';
 
 export const MainPage = () => {
 	return (
 		<div>
-			Главная страничка
+			<Container className={styles.container}>
+				главная
+			</Container>
 		</div>
 	)
 }

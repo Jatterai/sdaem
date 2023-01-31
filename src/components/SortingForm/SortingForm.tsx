@@ -1,25 +1,30 @@
-import { Form } from 'react-router-dom';
+import { Form, useSearchParams } from 'react-router-dom';
+import { useResetForm } from '../../hooks/useResetForm';
 import { Container } from '../Container/Container';
 import { ArrowRightIcon, OptionsIcon } from '../icons';
 import { Select } from '../Select/Select';
 import styles from './SortingForm.module.scss';
 
 export const SortingForm = () => {
+	const [searchParams, setSeachParams] = useSearchParams();
+	const reset = useResetForm();
+
 	return (
 		<div className={styles.wrapper}>
 			<Container className={styles.container}>
-				<Form method='get' className={styles.form}>
+				<Form method='get' className={styles.form} onReset={(e) => setSeachParams('')}>
 					<div className={styles.label}>
 						<span className={styles.label_text}>Комнаты</span>
 						<Select
 							name='rooms'
-							className={styles.rooms}
+							className={styles.sort}
+							activeClassName={styles.rooms__active}
 							options={[
-								{ value: 1, label: '1 комн.' },
-								{ value: 2, label: '2 комн.' },
-								{ value: 3, label: '3 комн.' },
-								{ value: 4, label: '4 комн.' },
-								{ value: 5, label: '5 комн.' },
+								{ value: 1, label: '1 комн.', checked: searchParams.get('rooms') == 1 },
+								{ value: 2, label: '2 комн.', checked: searchParams.get('rooms') == 2 },
+								{ value: 3, label: '3 комн.', checked: searchParams.get('rooms') == 3 },
+								{ value: 4, label: '4 комн.', checked: searchParams.get('rooms') == 4 },
+								{ value: 5, label: '5 комн.', checked: searchParams.get('rooms') == 5 },
 							]}
 						/>
 					</div>
@@ -33,12 +38,12 @@ export const SortingForm = () => {
 						<span>Больше опций</span> <OptionsIcon className={styles.icon} />
 					</button>
 					<div className={styles.controlForm}>
-						<button type='reset' className={styles.reset_button}>Очистить</button>
+						<button onClick={reset} className={styles.reset_button}>Очистить</button>
 						<button type='submit' className={styles.submit_button} >Показать объекты <ArrowRightIcon className={styles.icon} /></button>
 					</div>
 				</Form>
 			</Container>
 
-		</div>
+		</div >
 	)
 }
