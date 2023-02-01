@@ -6,8 +6,9 @@ export const useResetForm = () => {
 	const reset = (event) => {
 		const form = event.target.closest('form');
 		if (!form) return;
-		form.reset();
 		updateForm({});
+		form.reset();
+
 	}
 
 	return reset

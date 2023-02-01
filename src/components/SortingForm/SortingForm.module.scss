@@ -138,6 +138,7 @@
 }
 
 .secondContainer {
+	display: none;
 	padding-block: 20px 30px;
 
 	.selects {
@@ -161,6 +162,10 @@
 		display: grid;
 		grid-template-columns: repeat(5, 1fr);
 		row-gap: 10px;
+	}
+
+	&.opened {
+		display: block;
 	}
 }
 
