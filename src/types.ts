@@ -17,6 +17,7 @@ export type TUsual = {
 
 export interface TOptions extends TUsual {
 	onChange: (e: React.ChangeEventHandler<HTMLInputElement>) => void;
+	setIsOpen: () => void;
 }
 
 export interface TOption {

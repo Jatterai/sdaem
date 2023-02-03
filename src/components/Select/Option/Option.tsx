@@ -8,13 +8,12 @@ export const Option = ({ className, label, id, value, name, defaultChecked, setL
 		if (label === mainLabel && !ref.current.checked) setLabel('');
 	});
 	return (
-		<label className={styles.radio + ' ' + className} >
+		<label className={styles.radio + ' ' + className}>
 			<input
 				type="radio"
 				name={name}
 				value={value}
 				id={id?.toString()}
-				onClick={e => e.stopPropagation()}
 				defaultChecked={defaultChecked}
 				ref={ref}
 

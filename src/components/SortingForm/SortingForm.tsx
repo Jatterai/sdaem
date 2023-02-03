@@ -7,9 +7,8 @@ import styles from './SortingForm.module.scss';
 import { districts, subways, stuffList } from '../../idk';
 import { Checkbox } from '../Checkbox/Checkbox';
 import { useToggle } from '../../hooks/useToggle';
-import { useSrchParams } from '../../hooks/useSrchParams';
 
-export const SortingForm = ({ searchParams, setSearchParams, params }) => {
+export const SortingForm = ({ setSearchParams, params }) => {
 	const reset = useResetForm();
 	const [isOpen, setIsOpen] = useToggle();
 
@@ -25,8 +24,8 @@ export const SortingForm = ({ searchParams, setSearchParams, params }) => {
 						<span className={styles.label_text}>Комнаты</span>
 						<Select
 							name='rooms'
-							className={styles.select + ' ' + styles.sort}
-							activeClassName={styles.rooms__active}
+							className={styles.select + ' ' + styles.rooms}
+							activeClassName={styles.select__active}
 							options={[
 								{ value: 1, label: '1 комн.', checked: params.rooms == 1 },
 								{ value: 2, label: '2 комн.', checked: params.rooms == 2 },
@@ -38,11 +37,15 @@ export const SortingForm = ({ searchParams, setSearchParams, params }) => {
 					</div>
 					<label className={styles.label}>
 						<span className={styles.label_text}>Цена за сутки (BYN)</span>
-						<input type="number" name='priceFrom' defaultValue={params.priceFrom} className={styles.input_number} />
+						<input type="number" placeholder='От' name='priceFrom' defaultValue={params.priceFrom} className={styles.input_number} />
 						<span className={styles.label_text + ' ' + styles.hyphen}>-</span>
-						<input type="number" name='priceTo' defaultValue={params.priceTo} className={styles.input_number} />
+						<input type="number" placeholder='До' name='priceTo' defaultValue={params.priceTo} className={styles.input_number} />
 					</label>
-					<button type='button' onClick={setIsOpen} className={styles.more_options_button}>
+					<button
+						type='button'
+						onClick={setIsOpen}
+						className={styles.more_options_button + (isOpen ? ` ${styles.opened}` : '')}
+					>
 						<span>Больше опций</span> <OptionsIcon className={styles.icon} />
 					</button>
 					<div className={styles.controlForm}>
@@ -57,6 +60,7 @@ export const SortingForm = ({ searchParams, setSearchParams, params }) => {
 							<span className={styles.label}>Спальные места</span>
 							<Select
 								className={styles.select}
+								activeClassName={styles.select__active}
 								name='bedroomsCount'
 								options={[
 									{ value: 1, label: '1 место', checked: params.bedroomsCount == 1 },
@@ -71,6 +75,7 @@ export const SortingForm = ({ searchParams, setSearchParams, params }) => {
 							<span className={styles.label}>Район</span>
 							<Select
 								className={styles.select}
+								activeClassName={styles.select__active}
 								name='district'
 								options={districts.map(el => ({ value: el, label: el, checked: params[el] === el }))}
 							/>
@@ -79,6 +84,7 @@ export const SortingForm = ({ searchParams, setSearchParams, params }) => {
 							<span className={styles.label}>Метро</span>
 							<Select
 								className={styles.select}
+								activeClassName={styles.select__active}
 								name='subway'
 								options={subways.map(el => ({ value: el, label: el, checked: params[el] === el }))}
 							/>

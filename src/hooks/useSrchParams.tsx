@@ -8,7 +8,7 @@ export const useSrchParams = () => {
 		.from(searchParams.keys())
 		.forEach(el => {
 			const kitten = searchParams.getAll(el);
-			if (kitten.length > 1) params[el] = kitten;
+			if (kitten.length > 1 || el == 'stuff') params[el] = kitten;
 			else params[el] = kitten.join('');
 		})
 

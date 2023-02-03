@@ -18,7 +18,9 @@ export const Select = ({
 	const [isOpen, setIsOpen] = useState();
 	const activeClass = isOpen ? ` ${styles.active} ${activeClassName}` : '';
 
+
 	const handleChange = (e) => {
+		if (e.target.tagName !== 'INPUT') return;
 		if (onChange) onChange(e);
 		const newLabel = e.target.closest('label').textContent;
 		setLabel(newLabel)
@@ -33,7 +35,7 @@ export const Select = ({
 
 			<Options
 				className={styles.radios + ' ' + optionsBoxClassName}
-				onMouseLeave={() => setIsOpen(false)}
+				setIsOpen={setIsOpen}
 				onChange={handleChange}
 			>
 				{

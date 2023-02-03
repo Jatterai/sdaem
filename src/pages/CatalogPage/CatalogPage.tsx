@@ -6,7 +6,6 @@ import { FacebookIcon, PinIcon, TelegramIcon, ViberIcon, VkIcon, WhatsappIcon } 
 import { usePaginate } from '../../hooks/usePaginate';
 import { useEffect, useState } from 'react';
 import { sortItems } from '../../app/features/catalog/catalogSlice';
-import { useSearchParams } from 'react-router-dom';
 import { useSrchParams } from '../../hooks/useSrchParams';
 
 
