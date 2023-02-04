@@ -133,3 +133,17 @@ export type TCalalogSlice = {
 	catalogItems: TApartment[] | any[],
 	isLoading: boolean
 }
+
+export interface TSortingForm {
+	setSearchParams: () => void;
+	params: object;
+	className: string;
+	paramClassName: string;
+}
+
+export interface TSortingParam {
+	children: React.ReactNode,
+	txt: string,
+	className: string,
+	labelClassName: string
+}

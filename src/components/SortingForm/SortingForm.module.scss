@@ -6,25 +6,11 @@
 	line-height: calc(17 / 14);
 	font-weight: 500;
 	color: #1e2123;
+}
 
-	input,
-	button,
-	label,
-	select {
-		font-size: inherit;
-		font-family: inherit;
-		line-height: inherit;
-		font-weight: inherit;
-		color: inherit;
-		cursor: pointer;
-		&:focus,
-		&:active {
-			outline: none;
-		}
-	}
-	input {
-		cursor: text;
-	}
+input,
+button {
+	white-space: nowrap;
 }
 
 .select {
@@ -32,6 +18,9 @@
 	transition: 200ms;
 	&__active {
 		box-shadow: 0 0 0 1.5px rgba(78, 100, 249, 0.8);
+	}
+	@media (max-width: 580px) {
+		min-width: 270px;
 	}
 }
 
@@ -60,76 +49,52 @@
 		}
 	}
 
+	@media (max-width: 1279px) {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, auto);
+	}
+
+	@media (max-width: 580px) {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		& > * {
+			width: 100%;
+			padding: 15px 0;
+			justify-content: space-between;
+		}
+	}
+
 	.rooms {
 		background: #f8f8f8;
 		width: 150px;
 	}
 
-	.input_number {
-		width: 100px;
-		&:focus {
-			box-shadow: 0 0 0 1.5px rgba(78, 100, 249, 0.8);
-		}
-		&::placeholder {
-			color: inherit;
-		}
-	}
-
 	.label {
-		.label_text {
-			color: #664ef9;
-			margin-right: calc(20 / 14 * 1em);
+		.txt {
+			color: #4e64f9;
+			margin-right: 20px;
+			white-space: nowrap;
+			@media (max-width: 850px) {
+				display: none;
+			}
+			@media (max-width: 580px) {
+				display: block;
+			}
 		}
+		color: #1e2123;
 		.hyphen {
 			margin: 0 6px;
 		}
 	}
 
-	select,
-	input,
 	.controlForm button {
 		border-radius: 20px;
 		padding: 10px;
 		transition: 200ms;
 		appearance: none;
 		background: #f8f8f8;
-	}
-
-	.more_options_button {
-		padding-block: 32px;
-		position: relative;
-		background: white;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex: 0 0 auto;
-		gap: 10px;
-		transition: 200ms ease-in-out 0s;
-
-		.icon {
-			width: 16px;
-		}
-		&:hover {
-			background: rgba(0, 0, 0, 0.03);
-		}
-
-		&:before {
-			content: "";
-			display: block;
-			position: absolute;
-			width: 100%;
-			height: 3px;
-			background: #4e64f9;
-			bottom: 0;
-			transition: 200ms;
-			transform: scaleX(0);
-		}
-
-		&.opened {
-			&::before {
-				transform: scaleX(1);
-			}
-		}
 	}
 
 	.controlForm {
@@ -157,13 +122,12 @@
 				}
 			}
 		}
-	}
-
-	@media (max-width: 1279px) {
-		.more_options_button {
-			span {
-				display: none;
-			}
+		@media (max-width: 1279px) {
+			grid-area: 2 / 1 / 3 / 4;
+			padding: 20px 0;
+			background: transparent;
+			justify-content: center;
+			border-top: 1px solid rgba(78, 100, 249, 0.1);
 		}
 	}
 }
@@ -171,29 +135,6 @@
 .secondContainer {
 	display: none;
 	padding-block: 20px 30px;
-
-	.selects {
-		display: flex;
-		gap: 48px;
-		margin-bottom: 30px;
-		&_label {
-			flex: 0 0 200px;
-			.label {
-				display: block;
-				margin-bottom: 11px;
-				color: #664ef9;
-			}
-		}
-	}
-
-	.select {
-	}
-
-	.checkboxes {
-		display: grid;
-		grid-template-columns: repeat(5, 1fr);
-		row-gap: 10px;
-	}
 
 	&.opened {
 		display: block;

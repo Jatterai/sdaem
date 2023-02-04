@@ -1,0 +1,40 @@
+input {
+	width: 100px;
+	&:focus {
+		box-shadow: 0 0 0 1.5px rgba(78, 100, 249, 0.8);
+	}
+	&::placeholder {
+		color: inherit;
+	}
+}
+
+input,
+button,
+label,
+select {
+	font-size: inherit;
+	font-family: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	color: inherit;
+	cursor: pointer;
+	&:focus,
+	&:active {
+		outline: none;
+	}
+}
+input {
+	cursor: text;
+}
+
+.label {
+}
+
+input,
+select {
+	border-radius: 20px;
+	padding: 10px;
+	transition: 200ms;
+	appearance: none;
+	background: #f8f8f8;
+}

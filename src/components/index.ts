@@ -15,3 +15,6 @@ export { Paginate } from './Paginate/Paginate';
 export { Organization } from './Organization/Organization';
 export { SortingForm } from './SortingForm/SortingForm';
 export { Select } from './Select/Select';
+export { SortingParamLabel } from './SortingParamLabel/SortingParamLabel';
+export { MoreOptions } from './MoreOptions/MoreOptions';
+export { Checkbox } from './Checkbox/Checkbox';

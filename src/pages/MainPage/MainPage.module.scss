@@ -1,24 +1,19 @@
-.container {
-	padding-block: 50px;
-}
-.select {
-	width: 30%;
-}
-.btn {
-	padding: 10px 20px;
-	border-radius: 20px;
-	background: hotpink;
-	display: block;
-	margin: 10px;
-}
+.forms {
+	.container {
+		border-radius: 0px 0px 40px 40px;
+		padding-block: 82.5px 118px;
+	}
 
-.lol {
-	background: red;
-	option {
-		background: green;
-		color: white;
-		appearance: none;
-		display: block;
-		padding: 30px;
+	.title {
+		font-weight: 700;
+		font-size: calc(30 / 16 * 1rem);
+		line-height: calc(36 / 30);
+		text-align: center;
+		color: #ffffff;
+		text-shadow: 0px 2px 5px rgba(0, 14, 142, 0.3);
+		margin-bottom: calc(50 / 30 * 1em);
+		span {
+			color: #ffd54f;
+		}
 	}
 }
