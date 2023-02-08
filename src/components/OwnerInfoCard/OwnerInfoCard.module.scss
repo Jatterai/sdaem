@@ -40,7 +40,7 @@
 
 .p {
 	font-weight: 500;
-	font-size: (14 / 20 * 1em);
+	font-size: calc(14 / 20 * 1em);
 	display: flex;
 	color: #bdbdbd;
 	margin-bottom: 5px;

@@ -8,7 +8,7 @@ import { getCatalogItems } from './app/features/catalog/catalogSlice';
 
 function App() {
 
-	console.log('%cЯ звёздочку в Каталоге Квартир сама нарисовала с:', 'color: hotpink; font-weight: 700; font-size: 40px; text-shadow: -1px -1px 0px black')
+	console.log('%cЯ звёздочку в Каталоге Квартир сама нарисовала с: \n\n А еще зацените мой шикарный Select компонент', 'color: hotpink; font-weight: 700; font-size: 40px; text-shadow: -1px -1px 0px black')
 
 	const dispatch = useDispatch();
 

@@ -39,7 +39,7 @@ export const Footer = () => {
 				<div className={styles.row + ' ' + styles.aparments}>
 					<h6 className={styles.title}>Квартиры</h6>
 					<ul className={styles.list}>
-						<li><a>Квартиры в Минске</a></li>
+						<li><NavLink to='/catalog'>Квартиры в Минске</NavLink></li>
 						<li><a>Квартиры в Гомеле</a></li>
 						<li><a>Квартиры в Бресте</a></li>
 						<li><a>Квартиры в Витебске</a></li>
@@ -52,7 +52,7 @@ export const Footer = () => {
 						<li><NavLink to={'/news'}>Новости</NavLink></li>
 						<li><NavLink to={'/'}>Размещение и тарифы</NavLink></li>
 						<li><NavLink to={'/'}>Объявления на карте</NavLink></li>
-						<li><NavLink to={'/'}>Контакты</NavLink></li>
+						<li><NavLink to={'/contacts'}>Контакты</NavLink></li>
 					</ul>
 				</div>
 				<div className={styles.row + ' ' + styles.media}>

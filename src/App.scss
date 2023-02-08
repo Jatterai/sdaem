@@ -33,6 +33,16 @@ a:visited {
 	cursor: pointer;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
 .loading {
 	margin: 50px auto;
 	display: flex;

@@ -1,5 +1,5 @@
 .header {
-	padding-block: 42px 52px;
+	padding-block: 42px 51px;
 	background: linear-gradient(90deg, #94afff23 0%, #4e65f923 94.5%);
 	background-clip: padding-box;
 
@@ -15,6 +15,12 @@
 .body {
 	.container {
 		padding-block: 70px 50px;
+		@media (max-width: 900px) {
+			padding-block: 40px;
+		}
+		@media (max-width: 500px) {
+			padding-block: 30px;
+		}
 	}
 	.count {
 		font-weight: 700;
@@ -24,9 +30,9 @@
 		margin-bottom: 2em;
 	}
 
-	.cards {
+	.cards,
+	.lines {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
 		gap: 30px;
 		margin-bottom: 80px;
 		@media (max-width: 1000px) {
@@ -35,6 +41,20 @@
 		@media (max-width: 700px) {
 			margin-bottom: 35px;
 		}
+	}
+
+	.cards {
+		grid-template-columns: repeat(3, 1fr);
+		@media (max-width: 960px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		@media (max-width: 750px) {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	.lines {
+		grid-template-columns: repeat(1fr);
 	}
 }
 
@@ -63,7 +83,8 @@
 			align-items: center;
 			gap: 16.5px;
 		}
-		li {
+		a {
+			display: block;
 			width: 35px;
 			aspect-ratio: 1 /1;
 			display: flex;
@@ -71,6 +92,48 @@
 			justify-content: center;
 			background: #f4f5fa;
 			border-radius: 25px;
+		}
+	}
+}
+
+.showOnMap {
+	&_container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		color: white;
+		padding-block: 74px 86px;
+		font-weight: 500;
+		line-height: calc(19 / 15);
+		text-align: center;
+	}
+
+	.title {
+		font-size: calc(25 / 16 * 1em);
+		margin-bottom: calc(20 / 25 * 1em);
+	}
+	.text {
+		max-width: 350px;
+		margin-bottom: 20px;
+	}
+	.button {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		padding: 10px 18px;
+		font-weight: 600;
+		font-size: calc(14 / 16 * 1em);
+		line-height: calc(17 / 14 * 1em);
+		color: #1e2123;
+		background: #ffffff;
+		border-radius: 19px;
+		.icon {
+			width: 12px;
+			path {
+				fill: #fec100;
+			}
 		}
 	}
 }

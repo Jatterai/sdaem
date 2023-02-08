@@ -1,0 +1,93 @@
+.container {
+	display: flex;
+	padding-block: 20px 12px;
+	@media (max-width: 750px) {
+		justify-content: space-between;
+	}
+	@media (max-width: 500px) {
+		flex-direction: column;
+		gap: 20px;
+	}
+}
+.item {
+	cursor: pointer;
+	background: #ffffff;
+	box-shadow: 0px 5px 20px rgba(0, 96, 206, 0.1);
+	border-radius: 18px;
+	font-family: "Inter";
+	font-size: 14px;
+	color: #1e2123;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	line-height: 1;
+	padding: 10px 15px;
+	&:focus {
+		outline: none;
+	}
+	.icon {
+		margin-right: 10px;
+	}
+	span {
+		display: flex;
+		align-items: center;
+	}
+	@media (max-width: 500px) {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+}
+
+.rooms {
+	background: white;
+	box-shadow: 0px 5px 20px rgba(0, 96, 206, 0.1);
+	border-radius: 0px;
+	min-width: 232px;
+	margin-right: auto;
+	gap: 11px;
+	&::before {
+		content: "";
+		width: 15px;
+		aspect-ratio: 1 / 1;
+		display: block;
+		background: url("../../assets/icons/sort.svg") 0 0 / cover no-repeat;
+	}
+}
+.option {
+}
+
+.radios {
+	display: flex;
+	margin-right: 60px;
+	@media (max-width: 850px) {
+		display: none;
+	}
+	.radio {
+		transition: 200ms;
+		.icon {
+			path,
+			rect {
+				transition: 200ms;
+				fill: #664ef9;
+			}
+		}
+		input {
+			display: none;
+		}
+		&:not(:last-child) {
+			margin-right: 21px;
+		}
+		&:not(:has(input:checked)) {
+			font-weight: 500;
+			box-shadow: 0px 5px 20px rgba(0, 96, 206, 0);
+			background: transparent;
+			.icon {
+				path,
+				rect {
+					fill: #7a7f86;
+				}
+			}
+		}
+	}
+}

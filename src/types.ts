@@ -10,6 +10,41 @@ interface HeaderListItem {
 
 export type HeaderList = HeaderListItem[];
 
+export type TUsual = {
+	className?: string,
+	children: React.ReactNode,
+}
+
+export interface TOptions extends TUsual {
+	onChange: (e: React.ChangeEventHandler<HTMLInputElement>) => void;
+	setIsOpen: () => void;
+}
+
+export interface TOption {
+	className?: string,
+	label: string,
+	id?: number | string,
+	value: string | number,
+	name: string,
+	defaultChecked: boolean,
+
+}
+
+interface Toption { id?: number, value: string | number, label: string, checked?: boolean }
+
+export interface TSelect {
+	activeClassName?: string,
+	className?: string,
+	options: Toption[],
+	name: string,
+	placeholder?: string,
+	optionsBoxClassName?: string,
+	optionClassName?: string,
+	onChange?: (e: React.ChangeEventHandler<HTMLInputElement>) => void;
+}
+
+
+
 export type TTitle = {
 	addClass?: string,
 	children: React.ReactNode
@@ -97,4 +132,18 @@ export type TCardProps = {
 export type TCalalogSlice = {
 	catalogItems: TApartment[] | any[],
 	isLoading: boolean
+}
+
+export interface TSortingForm {
+	setSearchParams: () => void;
+	params: object;
+	className: string;
+	paramClassName: string;
+}
+
+export interface TSortingParam {
+	children: React.ReactNode,
+	txt: string,
+	className: string,
+	labelClassName: string
 }

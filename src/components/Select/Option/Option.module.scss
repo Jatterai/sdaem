@@ -1,0 +1,12 @@
+.radio {
+	input {
+		display: none;
+	}
+	display: block;
+	padding: 10px 15px;
+	cursor: pointer;
+	transition: 200ms;
+	&:hover {
+		background: #f8f8f8;
+	}
+}

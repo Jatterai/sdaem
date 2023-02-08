@@ -1,0 +1,28 @@
+.checkbox {
+	display: flex;
+	align-items: flex-end;
+	font-weight: 400;
+	.box {
+		width: calc(20 / 14 * 1em);
+		aspect-ratio: 1 / 1;
+		background: #f8f8f8;
+		border: 1px solid #f0f0f0;
+		border-radius: 5px;
+		margin-right: 10px;
+		transition: 200ms;
+	}
+	.input {
+		display: none;
+	}
+	&:has(input:checked) {
+		.box {
+			background: #664ef9;
+			border: 1px solid #664ef9;
+			border-radius: 5px;
+			background: url("../../assets/icons/check-icon.svg") center/ auto auto no-repeat, #664ef9;
+		}
+	}
+	span {
+		white-space: nowrap;
+	}
+}

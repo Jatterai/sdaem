@@ -1,0 +1,149 @@
+.wrapper {
+	background: #ffffff;
+	box-shadow: 0px 20px 40px rgba(39, 95, 158, 0.08);
+	border-top: 1px solid rgba(78, 100, 249, 0.1);
+	font-size: calc(14 / 16 * 1rem);
+	line-height: calc(17 / 14);
+	font-weight: 500;
+	color: #1e2123;
+}
+
+input,
+button {
+	white-space: nowrap;
+}
+
+.select {
+	background: #f8f8f8;
+	transition: 200ms;
+	&__active {
+		box-shadow: 0 0 0 1.5px rgba(78, 100, 249, 0.8);
+	}
+	@media (max-width: 580px) {
+		min-width: 270px;
+	}
+}
+
+.firstContainer,
+.secondContainer {
+	border-bottom: 1px solid rgba(78, 100, 249, 0.1);
+	padding: 0 41px;
+}
+
+.firstContainer {
+	display: flex;
+	align-items: stretch;
+	justify-content: stretch;
+	& > * {
+		padding: 0 25px;
+		border-right: 1px solid #654ef919;
+		display: flex;
+		align-items: center;
+		flex: 0 0 auto;
+		&:first-child {
+			padding-left: 0;
+		}
+		&:last-child {
+			padding-right: 0;
+			border: none;
+		}
+	}
+
+	@media (max-width: 1279px) {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, auto);
+	}
+
+	@media (max-width: 580px) {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		& > * {
+			width: 100%;
+			padding: 15px 0;
+			justify-content: space-between;
+		}
+	}
+
+	.rooms {
+		background: #f8f8f8;
+		width: 150px;
+	}
+
+	.label {
+		.txt {
+			color: #4e64f9;
+			margin-right: 20px;
+			white-space: nowrap;
+			@media (max-width: 850px) {
+				display: none;
+			}
+			@media (max-width: 580px) {
+				display: block;
+			}
+		}
+		color: #1e2123;
+		.hyphen {
+			margin: 0 6px;
+		}
+	}
+
+	.controlForm button {
+		border-radius: 20px;
+		padding: 10px;
+		transition: 200ms;
+		appearance: none;
+		background: #f8f8f8;
+	}
+
+	.controlForm {
+		flex: 1 0 auto;
+		justify-content: flex-end;
+		button {
+			padding: 10px 16px;
+			&:not(:last-child) {
+				margin-right: 30px;
+			}
+		}
+
+		.submit_button {
+			background: #664ef9;
+			display: flex;
+			align-items: center;
+			color: #ffffff;
+
+			.icon {
+				width: 9.5px;
+				margin-left: 17px;
+				margin-right: 5px;
+				path {
+					stroke: white;
+				}
+			}
+		}
+		@media (max-width: 1279px) {
+			grid-area: 2 / 1 / 3 / 4;
+			padding: 20px 0;
+			background: transparent;
+			justify-content: center;
+			border-top: 1px solid rgba(78, 100, 249, 0.1);
+		}
+	}
+}
+
+.secondContainer {
+	display: none;
+	padding-block: 20px 30px;
+
+	&.opened {
+		display: block;
+	}
+}
+
+.test {
+	appearance: none;
+	display: block;
+	height: auto;
+	overflow: visible;
+}
