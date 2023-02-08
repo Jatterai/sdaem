@@ -1,3 +1,9 @@
+.container {
+	&.opened {
+		display: block;
+	}
+}
+
 .selects {
 	display: flex;
 	flex-wrap: wrap;
@@ -23,12 +29,17 @@
 }
 
 .select {
+	transition: 200ms;
+	background-color: #f8f8f8;
+}
+.select__active {
+	box-shadow: 0 0 0 1.5px rgba(102, 78, 249, 0.8);
 }
 
 .checkboxes {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
-	row-gap: 10px;
+	gap: 10px;
 
 	@media (max-width: 1060px) {
 		grid-template-columns: repeat(3, 1fr);

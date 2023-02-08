@@ -1,10 +1,10 @@
 import { Route, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import { Authorization, Layout, Registration } from './components';
-import { News, Error, Post, singlePostLoader, Contacts, newsLoader, AuthPage, CatalogPage, MainPage } from './pages';
+import { News, Error, Post, singlePostLoader, Contacts, newsLoader, AuthPage, CatalogPage, MainPage, actionMainPage } from './pages';
 
 export const router = createBrowserRouter(createRoutesFromElements(
 	<>
-		<Route path='/' element={<Layout />}>
+		<Route path='/' element={<Layout />} action={actionMainPage}>
 			<Route path='' element={<MainPage />} />
 			<Route path='news'
 				element={<News itemsPerPage={9} />}
