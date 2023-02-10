@@ -54,7 +54,7 @@ export const CatalodSection = () => {
 					<div className={styles.menu}>
 						<h5 className={styles.title}>Квартиры</h5>
 						<div className={styles.list}>
-							<Link to='/' className={styles.item}>
+							<Link to='/catalog' className={styles.item}>
 								<span className={styles.name}>Квартиры в Минске</span>
 								<span className={styles.amount}>{catalogItems.length}</span>
 							</Link>

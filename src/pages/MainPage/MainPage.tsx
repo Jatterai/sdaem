@@ -1,5 +1,5 @@
 import { redirect } from 'react-router-dom';
-import { CatalodSection, Container, Tabs } from '../../components';
+import { AdvantagesSection, CatalodSection, Container, Tabs } from '../../components';
 import styles from './MainPage.module.scss';
 
 export const MainPage = () => {
@@ -12,6 +12,7 @@ export const MainPage = () => {
 				</Container>
 			</section>
 			<CatalodSection />
+			<AdvantagesSection />
 		</div>
 	)
 }
