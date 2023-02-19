@@ -2,10 +2,10 @@ import { Container, Select, Checkbox } from '../'
 import styles from './MoreOptions.module.scss';
 import { districts, subways, stuffList } from '../../idk';
 
-export const MoreOptions = ({ params, className }: { params: object, className: string }) => {
-	console.log(params.stuff);
+export const MoreOptions = ({ params, className, isOpen }: { params?: object, className: string, isOpen: boolean }) => {
+
 	return (
-		<Container className={className}>
+		<Container className={styles.container + ' ' + className + ' ' + (isOpen ? styles.opened : '')}>
 			<div className={styles.selects}>
 				<p className={styles.selects_label}>
 					<span className={styles.label}>Спальные места</span>
@@ -14,11 +14,11 @@ export const MoreOptions = ({ params, className }: { params: object, className: 
 						activeClassName={styles.select__active}
 						name='bedroomsCount'
 						options={[
-							{ value: 1, label: '1 место', checked: params.bedroomsCount == 1 },
-							{ value: 2, label: '2 места', checked: params.bedroomsCount == 2 },
-							{ value: 3, label: '3 места', checked: params.bedroomsCount == 3 },
-							{ value: 4, label: '4 места', checked: params.bedroomsCount == 4 },
-							{ value: 5, label: '5 мест', checked: params.bedroomsCount == 5 },
+							{ value: 1, label: '1 место', checked: params?.bedroomsCount == 1 },
+							{ value: 2, label: '2 места', checked: params?.bedroomsCount == 2 },
+							{ value: 3, label: '3 места', checked: params?.bedroomsCount == 3 },
+							{ value: 4, label: '4 места', checked: params?.bedroomsCount == 4 },
+							{ value: 5, label: '5 мест', checked: params?.bedroomsCount == 5 },
 						]}
 					/>
 				</p>
@@ -28,7 +28,9 @@ export const MoreOptions = ({ params, className }: { params: object, className: 
 						className={styles.select}
 						activeClassName={styles.select__active}
 						name='district'
-						options={districts.map(el => ({ value: el, label: el, checked: params[el] === el }))}
+						options={districts.map(el => (
+							{ value: el, label: el, checked: params ? params[el] === el : false }
+						))}
 					/>
 				</p>
 				<p className={styles.selects_label}>
@@ -37,7 +39,9 @@ export const MoreOptions = ({ params, className }: { params: object, className: 
 						className={styles.select}
 						activeClassName={styles.select__active}
 						name='subway'
-						options={subways.map(el => ({ value: el, label: el, checked: params[el] === el }))}
+						options={subways.map(el => (
+							{ value: el, label: el, checked: params ? params[el] === el : false }
+						))}
 					/>
 				</p>
 			</div>
@@ -48,7 +52,7 @@ export const MoreOptions = ({ params, className }: { params: object, className: 
 							name={'stuff'}
 							value={el}
 							label={el}
-							defaultChecked={params.stuff?.includes(el) ? true : false}
+							defaultChecked={params?.stuff?.includes(el) ? true : false}
 						/>
 					))
 				}

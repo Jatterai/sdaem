@@ -43,3 +43,8 @@ main {
 	display: flex;
 	flex-direction: column;
 }
+
+*::selection {
+	background-color: rgba(102, 78, 249, 1);
+	color: white;
+}

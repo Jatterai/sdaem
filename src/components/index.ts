@@ -18,3 +18,6 @@ export { Select } from './Select/Select';
 export { SortingParamLabel } from './SortingParamLabel/SortingParamLabel';
 export { MoreOptions } from './MoreOptions/MoreOptions';
 export { Checkbox } from './Checkbox/Checkbox';
+export { Tabs } from './Tabs/Tabs';
+export { CatalodSection } from './CatalodSection/CatalodSection';
+export { AdvantagesSection } from './AdvantagesSection/AdvantagesSection';
